@@ -1,0 +1,54 @@
+name: Import academic website
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-academic-website
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Verify and unpack reviewed website
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s  %s\n' '651d0e3ccc37ad92d43cfa12756c9361e13fb776d82292360299fac8c5ef5c29' 'github-pages-site.zip' | sha256sum --check --strict
+          python3 - <<'PY'
+          import zipfile
+          from pathlib import PurePosixPath
+
+          allowed = {'.nojekyll', 'README.md', 'assets', 'demos', 'index.html', 'robots.txt', 'script.js', 'sitemap.xml', 'styles.css'}
+          with zipfile.ZipFile('github-pages-site.zip') as archive:
+              members = archive.infolist()
+              assert len(members) == 103, 'Unexpected archive entry count'
+              for member in members:
+                  path = PurePosixPath(member.filename)
+                  assert not path.is_absolute() and '..' not in path.parts, 'Unsafe archive path'
+                  assert path.parts[0] in allowed, 'Unexpected archive root entry'
+              archive.extractall('.')
+          PY
+
+      - name: Commit website files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- .nojekyll README.md assets demos index.html robots.txt script.js sitemap.xml styles.css
+          git rm -- github-pages-site.zip
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Publish academic website and linked CV'
+          git push origin HEAD:main

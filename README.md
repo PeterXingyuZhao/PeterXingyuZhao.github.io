@@ -19,6 +19,7 @@ The `.nojekyll` file tells GitHub Pages to serve the static files directly.
 - `styles.css`: responsive layout and typography.
 - `script.js`: citation dialogs and navigation.
 - `assets/Xingyu_Zhao_CV.pdf`: downloadable CV with the GitHub Pages website link.
+- `assets/xingyu-zhao-web.jpg`: single-frame sRGB JPEG for the portrait (1600×1200). Use this web export instead of the full-resolution Apple multi-picture original, `assets/xingyu-zhao.jpg`.
 - `demos/b-spline/`: interactive course project, including source credits and license notices.
 
 Run `python3 -m http.server 8779` from this directory, then open http://localhost:8779/.

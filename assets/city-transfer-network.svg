@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="720pt" height="720pt" viewBox="0 0 720 720" version="1.1" role="img" aria-labelledby="city-network-title city-network-description">
+ <title id="city-network-title">Preferences transfer in clusters: Qwen2.5 city distribution distillation</title><desc id="city-network-description">The schematic shows a teacher city preference passing through a probability distribution over complete two-digit strings 00–99 to a separately trained student. Below are all 30 measured city nodes at the published PCA coordinates, without jitter. The 86 directed arrows and 27 self-loops show double-centered, question-averaged log-probability changes of at least 4 nats. An arrow points from teacher city to student answer city; stroke width is proportional to the centered value. Positive centered values are relative interactions, not necessarily absolute probability increases. Negative and weaker values are omitted; this display cutoff is not a significance test. Colors identify six predefined geographic groups, not inferred clusters. Six city labels are shown for readability. PCA uses the full signed 30-by-30 matrix. Measured data source: data/figures/figure2.json, panel qwen25_city_number_distribution, in PeterXingyuZhao/cross-trait-transfer; file SHA256 731e14b0ba8d2712b8bbd5973676de2f968c726f394f298f18dae0b776879f42. Original source matrix SHA256 342512af9c932cc61c3457c8789ec94f4e61ce7baf73f620f3116afe7ab330a5.</desc><title>City preferences transfer in clusters</title>
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>City preferences transfer in clusters</dc:title>
+    <dc:description>Measured city network with a schematic of distribution distillation.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720  L 720 720  L 720 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 37 64  L 193 64  Q 202 64 202 73  L 202 131  Q 202 140 193 140  L 37 140  Q 28 140 28 131  L 28 73  Q 28 64 37 64  z " clip-path="url(#pceba362b47)" style="fill: #f5f8f5; stroke: #dfe5e1; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_3">
+    <path d="M 257 64  L 463 64  Q 472 64 472 73  L 472 131  Q 472 140 463 140  L 257 140  Q 248 140 248 131  L 248 73  Q 248 64 257 64  z " clip-path="url(#pceba362b47)" style="fill: #f5f8f5; stroke: #dfe5e1; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 527 64  L 683 64  Q 692 64 692 73  L 692 131  Q 692 140 683 140  L 527 140  Q 518 140 518 131  L 518 73  Q 518 64 527 64  z " clip-path="url(#pceba362b47)" style="fill: #f5f8f5; stroke: #dfe5e1; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 211.003174 102  Q 224.001944 102 234.988254 102  " clip-path="url(#pceba362b47)" style="fill: none; stroke: #25624d; stroke-width: 1.8; stroke-linecap: round" />
+    <path d="M 230.188254 99.6  L 234.988254 102  L 230.188254 104.4  z " clip-path="url(#pceba362b47)" style="fill: #25624d; stroke: #25624d; stroke-width: 1.8; stroke-linecap: round" />
+   </g>
+   <g id="patch_6">
+    <path d="M 481.003174 102  Q 494.001944 102 504.988254 102  " clip-path="url(#pceba362b47)" style="fill: none; stroke: #25624d; stroke-width: 1.8; stroke-linecap: round" />
+    <path d="M 500.188254 99.6  L 504.988254 102  L 500.188254 104.4  z " clip-path="url(#pceba362b47)" style="fill: #25624d; stroke: #25624d; stroke-width: 1.8; stroke-linecap: round" />
+   </g>
+   <g id="patch_7">
+    <path d="M 43 626  C 44.326015 626 45.597899 626.526832 46.535534 627.464466  C 47.473168 628.402101 48 629.673984 48 631  C 48 632.326016 47.473168 633.597899 46.535534 634.535534  C 45.597899 635.473168 44.326015 636 43 636  C 41.673985 636 40.402101 635.473168 39.464466 634.535534  C 38.526832 633.597899 38 632.326016 38 631  C 38 629.673984 38.526832 628.402101 39.464466 627.464466  C 40.402101 626.526832 41.673985 626 43 626  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #b64b55; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 256 626  C 257.326015 626 258.597899 626.526832 259.535534 627.464466  C 260.473168 628.402101 261 629.673984 261 631  C 261 632.326016 260.473168 633.597899 259.535534 634.535534  C 258.597899 635.473168 257.326015 636 256 636  C 254.673984 636 253.402101 635.473168 252.464466 634.535534  C 251.526832 633.597899 251 632.326016 251 631  C 251 629.673984 251.526832 628.402101 252.464466 627.464466  C 253.402101 626.526832 254.673984 626 256 626  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #427cac; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 491 626  C 492.326015 626 493.597899 626.526832 494.535534 627.464466  C 495.473168 628.402101 496 629.673984 496 631  C 496 632.326016 495.473168 633.597899 494.535534 634.535534  C 493.597899 635.473168 492.326015 636 491 636  C 489.673985 636 488.402101 635.473168 487.464466 634.535534  C 486.526832 633.597899 486 632.326016 486 631  C 486 629.673984 486.526832 628.402101 487.464466 627.464466  C 488.402101 626.526832 489.673985 626 491 626  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #906caa; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_10">
+    <path d="M 43 659  C 44.326015 659 45.597899 659.526832 46.535534 660.464466  C 47.473168 661.402101 48 662.673984 48 664  C 48 665.326016 47.473168 666.597899 46.535534 667.535534  C 45.597899 668.473168 44.326015 669 43 669  C 41.673985 669 40.402101 668.473168 39.464466 667.535534  C 38.526832 666.597899 38 665.326016 38 664  C 38 662.673984 38.526832 661.402101 39.464466 660.464466  C 40.402101 659.526832 41.673985 659 43 659  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ce8b35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_11">
+    <path d="M 256 659  C 257.326015 659 258.597899 659.526832 259.535534 660.464466  C 260.473168 661.402101 261 662.673984 261 664  C 261 665.326016 260.473168 666.597899 259.535534 667.535534  C 258.597899 668.473168 257.326015 669 256 669  C 254.673984 669 253.402101 668.473168 252.464466 667.535534  C 251.526832 666.597899 251 665.326016 251 664  C 251 662.673984 251.526832 661.402101 252.464466 660.464466  C 253.402101 659.526832 254.673984 659 256 659  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #338b7b; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_12">
+    <path d="M 491 659  C 492.326015 659 493.597899 659.526832 494.535534 660.464466  C 495.473168 661.402101 496 662.673984 496 664  C 496 665.326016 495.473168 666.597899 494.535534 667.535534  C 493.597899 668.473168 492.326015 669 491 669  C 489.673985 669 488.402101 668.473168 487.464466 667.535534  C 486.526832 666.597899 486 665.326016 486 664  C 486 662.673984 486.526832 661.402101 487.464466 660.464466  C 488.402101 659.526832 489.673985 659 491 659  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #7a8744; stroke-linejoin: miter" />
+   </g>
+   <g id="transfer-24-02" data-source-city="Suzhou" data-target-city="Osaka" data-centered-nats="4.059039558166216" data-effect-kind="cross-trait">
+    <path d="M 262.289583 573.138913  Q 302.842677 533.76706 321.362881 481.134716  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.649446; stroke-linecap: round" />
+    <path d="M 319.112854 483.311268  L 321.362881 481.134716  L 321.754107 484.240669  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.649446; stroke-linecap: round" />
+   <title>Suzhou → Osaka: 4.059 centered nats</title></g>
+   <g id="transfer-03-20" data-source-city="Kobe" data-target-city="Beijing" data-centered-nats="4.067034097083951" data-effect-kind="cross-trait">
+    <path d="M 242.804968 475.078578  Q 219.525407 511.868612 214.626711 554.396747  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.650725; stroke-linecap: round" />
+    <path d="M 216.33792 551.775342  L 214.626711 554.396747  L 213.556313 551.454937  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.650725; stroke-linecap: round" />
+   <title>Kobe → Beijing: 4.067 centered nats</title></g>
+   <g id="transfer-06-09" data-source-city="Boston" data-target-city="Baltimore" data-centered-nats="4.092244637075188" data-effect-kind="cross-trait">
+    <path d="M 272.095488 459.400677  Q 274.486383 467.631345 280.36864 462.45077  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.654759; stroke-linecap: round" />
+    <path d="M 277.342084 463.250743  L 280.36864 462.45077  L 279.192685 465.351999  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.654759; stroke-linecap: round" />
+   <title>Boston → Baltimore: 4.092 centered nats</title></g>
+   <g id="transfer-03-02" data-source-city="Kobe" data-target-city="Osaka" data-centered-nats="4.122344482754059" data-effect-kind="cross-trait">
+    <path d="M 251.822588 471.808112  Q 284.277235 481.077915 316.887913 475.928811  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.659575; stroke-linecap: round" />
+    <path d="M 313.903827 474.982642  L 316.887913 475.928811  L 314.340527 477.748378  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.659575; stroke-linecap: round" />
+   <title>Kobe → Osaka: 4.122 centered nats</title></g>
+   <g id="transfer-11-19" data-source-city="Paris" data-target-city="Naples" data-centered-nats="4.178509202439507" data-effect-kind="cross-trait">
+    <path d="M 449.71757 414.281516  Q 497.409416 405.642242 535.853822 377.371133  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.668561; stroke-linecap: round" />
+    <path d="M 532.768681 377.90208  L 535.853822 377.371133  L 534.427495 380.157814  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.668561; stroke-linecap: round" />
+   <title>Paris → Naples: 4.179 centered nats</title></g>
+   <g id="transfer-03-09" data-source-city="Kobe" data-target-city="Baltimore" data-centered-nats="4.18820071917407" data-effect-kind="cross-trait">
+    <path d="M 252.063102 469.501983  Q 266.756143 467.609668 279.134306 460.930531  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.670112; stroke-linecap: round" />
+    <path d="M 276.005331 461.028087  L 279.134306 460.930531  L 277.334967 463.492244  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.670112; stroke-linecap: round" />
+   <title>Kobe → Baltimore: 4.188 centered nats</title></g>
+   <g id="transfer-20-23" data-source-city="Beijing" data-target-city="Hangzhou" data-centered-nats="4.224855295937452" data-effect-kind="cross-trait">
+    <path d="M 218.389783 565.125724  Q 228.812243 572.93209 236.685539 563.525075  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.675977; stroke-linecap: round" />
+    <path d="M 233.814839 564.773706  L 236.685539 563.525075  L 235.962024 566.570814  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.675977; stroke-linecap: round" />
+   <title>Beijing → Hangzhou: 4.225 centered nats</title></g>
+   <g id="transfer-02-01" data-source-city="Osaka" data-target-city="Kyoto" data-centered-nats="4.232644662451289" data-effect-kind="cross-trait">
+    <path d="M 321.204155 480.295703  Q 309.933958 508.691547 311.437371 538.446913  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.677223; stroke-linecap: round" />
+    <path d="M 312.694295 535.579834  L 311.437371 538.446913  L 309.897863 535.721126  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.677223; stroke-linecap: round" />
+   <title>Osaka → Kyoto: 4.233 centered nats</title></g>
+   <g id="transfer-08-20" data-source-city="Washington" data-target-city="Beijing" data-centered-nats="4.372965049416695" data-effect-kind="cross-trait">
+    <path d="M 192.699698 549.465597  Q 194.598835 562.764754 207.230177 562.032622  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.699674; stroke-linecap: round" />
+    <path d="M 204.353858 560.796988  L 207.230177 562.032622  L 204.515878 563.592297  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.699674; stroke-linecap: round" />
+   <title>Washington → Beijing: 4.373 centered nats</title></g>
+   <g id="transfer-24-18" data-source-city="Suzhou" data-target-city="Venice" data-centered-nats="4.451764762352788" data-effect-kind="cross-trait">
+    <path d="M 263.687458 575.571192  Q 398.367104 535.087559 497.701722 436.66598  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.712282; stroke-linecap: round" />
+    <path d="M 494.727335 437.642208  L 497.701722 436.66598  L 496.698072 439.631227  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.712282; stroke-linecap: round" />
+   <title>Suzhou → Venice: 4.452 centered nats</title></g>
+   <g id="transfer-08-24" data-source-city="Washington" data-target-city="Suzhou" data-centered-nats="4.4758521265475935" data-effect-kind="cross-trait">
+    <path d="M 196.950485 547.386764  Q 221.414423 567.645495 251.329984 575.628692  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.716136; stroke-linecap: round" />
+    <path d="M 248.985624 573.55409  L 251.329984 575.628692  L 248.263686 576.259419  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.716136; stroke-linecap: round" />
+   <title>Washington → Suzhou: 4.476 centered nats</title></g>
+   <g id="transfer-10-11" data-source-city="London" data-target-city="Paris" data-centered-nats="4.501807698831179" data-effect-kind="cross-trait">
+    <path d="M 286.1561 472.15808  Q 368.974504 463.879302 438.121135 419.015362  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.720289; stroke-linecap: round" />
+    <path d="M 435.010219 419.364933  L 438.121135 419.015362  L 436.534242 421.713838  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.720289; stroke-linecap: round" />
+   <title>London → Paris: 4.502 centered nats</title></g>
+   <g id="transfer-18-19" data-source-city="Venice" data-target-city="Naples" data-centered-nats="4.566216446798421" data-effect-kind="cross-trait">
+    <path d="M 506.891595 427.758599  Q 528.329024 406.849501 538.88839 379.701444  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.730595; stroke-linecap: round" />
+    <path d="M 536.568613 381.803499  L 538.88839 379.701444  L 539.178168 382.818498  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.730595; stroke-linecap: round" />
+   <title>Venice → Naples: 4.566 centered nats</title></g>
+   <g id="transfer-16-17" data-source-city="Milan" data-target-city="Florence" data-centered-nats="4.6180491559593815" data-effect-kind="cross-trait">
+    <path d="M 477.593294 385.090498  Q 495.584608 398.594271 516.640181 403.714064  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.738888; stroke-linecap: round" />
+    <path d="M 514.250238 401.692141  L 516.640181 403.714064  L 513.588677 404.412865  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.738888; stroke-linecap: round" />
+   <title>Milan → Florence: 4.618 centered nats</title></g>
+   <g id="transfer-24-22" data-source-city="Suzhou" data-target-city="Shanghai" data-centered-nats="4.6909476806216865" data-effect-kind="cross-trait">
+    <path d="M 255.594839 571.745497  Q 245.241636 548.826094 227.162668 532.573724  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.750552; stroke-linecap: round" />
+    <path d="M 228.309007 535.486782  L 227.162668 532.573724  L 230.180918 533.404488  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.750552; stroke-linecap: round" />
+   <title>Suzhou → Shanghai: 4.691 centered nats</title></g>
+   <g id="transfer-18-16" data-source-city="Venice" data-target-city="Milan" data-centered-nats="4.756923012964615" data-effect-kind="cross-trait">
+    <path d="M 500.731808 426.13075  Q 493.084548 403.456178 477.597885 386.345532  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.761108; stroke-linecap: round" />
+    <path d="M 478.438835 389.360959  L 477.597885 386.345532  L 480.514797 387.482028  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.761108; stroke-linecap: round" />
+   <title>Venice → Milan: 4.757 centered nats</title></g>
+   <g id="transfer-06-05" data-source-city="Boston" data-target-city="New York" data-centered-nats="4.784627781981337" data-effect-kind="cross-trait">
+    <path d="M 265.807405 456.411594  Q 230.484491 476.809064 207.898935 509.742003  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.76554; stroke-linecap: round" />
+    <path d="M 210.637128 508.22467  L 207.898935 509.742003  L 208.327984 506.641049  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.76554; stroke-linecap: round" />
+   <title>Boston → New York: 4.785 centered nats</title></g>
+   <g id="transfer-22-24" data-source-city="Shanghai" data-target-city="Suzhou" data-centered-nats="5.038959022103885" data-effect-kind="cross-trait">
+    <path d="M 224.324119 533.634691  Q 234.677322 556.554093 252.709993 572.764844  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.806233; stroke-linecap: round" />
+    <path d="M 251.563654 569.851786  L 252.709993 572.764844  L 249.691743 571.93408  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.806233; stroke-linecap: round" />
+   <title>Shanghai → Suzhou: 5.039 centered nats</title></g>
+   <g id="transfer-25-27" data-source-city="Delhi" data-target-city="Bengaluru" data-centered-nats="5.111581238069281" data-effect-kind="cross-trait">
+    <path d="M 178.629096 285.933825  Q 183.095705 257.456465 175.684688 230.547244  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.817853; stroke-linecap: round" />
+    <path d="M 175.078403 233.618469  L 175.684688 230.547244  L 177.777897 232.875006  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.817853; stroke-linecap: round" />
+   <title>Delhi → Bengaluru: 5.112 centered nats</title></g>
+   <g id="transfer-12-14" data-source-city="Brussels" data-target-city="Luxembourg" data-centered-nats="5.203371168508436" data-effect-kind="cross-trait">
+    <path d="M 432.239123 401.227919  Q 433.901171 415.472533 447.306026 415.855834  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.832539; stroke-linecap: round" />
+    <path d="M 444.547185 414.376375  L 447.306026 415.855834  L 444.467154 417.175231  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.832539; stroke-linecap: round" />
+   <title>Brussels → Luxembourg: 5.203 centered nats</title></g>
+   <g id="transfer-25-29" data-source-city="Delhi" data-target-city="Hyderabad" data-centered-nats="5.214197882619471" data-effect-kind="cross-trait">
+    <path d="M 180.373657 286.531047  Q 185.230737 274.705607 174.435483 269.819154  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.834272; stroke-linecap: round" />
+    <path d="M 176.409011 272.249213  L 174.435483 269.819154  L 177.563647 269.698367  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.834272; stroke-linecap: round" />
+   <title>Delhi → Hyderabad: 5.214 centered nats</title></g>
+   <g id="transfer-21-22" data-source-city="Tianjin" data-target-city="Shanghai" data-centered-nats="5.2397252806480346" data-effect-kind="cross-trait">
+    <path d="M 210.326142 549.388791  Q 223.648689 547.480314 222.932748 534.980158  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.838356; stroke-linecap: round" />
+    <path d="M 221.695145 537.85563  L 222.932748 534.980158  L 224.490564 537.695523  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.838356; stroke-linecap: round" />
+   <title>Tianjin → Shanghai: 5.240 centered nats</title></g>
+   <g id="transfer-08-22" data-source-city="Washington" data-target-city="Shanghai" data-centered-nats="5.377017328127467" data-effect-kind="cross-trait">
+    <path d="M 198.179114 545.096681  Q 213.598856 548.121638 219.603803 534.645386  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.860323; stroke-linecap: round" />
+    <path d="M 217.18537 536.633144  L 219.603803 534.645386  L 219.742949 537.772788  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.860323; stroke-linecap: round" />
+   <title>Washington → Shanghai: 5.377 centered nats</title></g>
+   <g id="transfer-03-22" data-source-city="Kobe" data-target-city="Shanghai" data-centered-nats="5.439829904421364" data-effect-kind="cross-trait">
+    <path d="M 242.576038 474.923196  Q 227.762643 496.477844 223.13201 521.229465  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.870373; stroke-linecap: round" />
+    <path d="M 225.023036 518.734667  L 223.13201 521.229465  L 222.270787 518.219765  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.870373; stroke-linecap: round" />
+   <title>Kobe → Shanghai: 5.440 centered nats</title></g>
+   <g id="transfer-20-22" data-source-city="Beijing" data-target-city="Shanghai" data-centered-nats="5.488850668210688" data-effect-kind="cross-trait">
+    <path d="M 218.944651 557.767042  Q 231.499832 547.898137 225.300007 534.251923  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.878216; stroke-linecap: round" />
+    <path d="M 225.183572 537.380252  L 225.300007 534.251923  L 227.732809 536.222068  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.878216; stroke-linecap: round" />
+   <title>Beijing → Shanghai: 5.489 centered nats</title></g>
+   <g id="transfer-16-19" data-source-city="Milan" data-target-city="Naples" data-centered-nats="5.526541793324705" data-effect-kind="cross-trait">
+    <path d="M 478.847528 382.061191  Q 507.949124 384.843015 534.670792 375.691237  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.884247; stroke-linecap: round" />
+    <path d="M 531.568228 375.273988  L 534.670792 375.691237  L 532.475454 377.922939  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.884247; stroke-linecap: round" />
+   <title>Milan → Naples: 5.527 centered nats</title></g>
+   <g id="transfer-20-08" data-source-city="Beijing" data-target-city="Washington" data-centered-nats="5.566937010885745" data-effect-kind="cross-trait">
+    <path d="M 213.649534 555.091708  Q 211.750397 541.792551 199.332282 542.512324  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.89071; stroke-linecap: round" />
+    <path d="M 202.208601 543.747958  L 199.332282 542.512324  L 202.04658 540.952649  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.89071; stroke-linecap: round" />
+   <title>Beijing → Washington: 5.567 centered nats</title></g>
+   <g id="transfer-13-12" data-source-city="Amsterdam" data-target-city="Brussels" data-centered-nats="5.662537427035556" data-effect-kind="cross-trait">
+    <path d="M 419.72334 358.396818  Q 421.396008 375.098822 428.66473 389.096783  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.906006; stroke-linecap: round" />
+    <path d="M 428.616845 385.966654  L 428.66473 389.096783  L 426.131896 387.257014  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.906006; stroke-linecap: round" />
+   <title>Amsterdam → Brussels: 5.663 centered nats</title></g>
+   <g id="transfer-17-15" data-source-city="Florence" data-target-city="Rome" data-centered-nats="5.82669412018541" data-effect-kind="cross-trait">
+    <path d="M 528.377342 401.969032  Q 538.471895 394.135456 531.600852 384.62413  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.932271; stroke-linecap: round" />
+    <path d="M 532.105649 387.713657  L 531.600852 384.62413  L 534.375352 386.074009  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.932271; stroke-linecap: round" />
+   <title>Florence → Rome: 5.827 centered nats</title></g>
+   <g id="transfer-04-24" data-source-city="Nara" data-target-city="Suzhou" data-centered-nats="5.869269971957323" data-effect-kind="cross-trait">
+    <path d="M 272.994059 534.745729  Q 262.23061 551.615965 258.975286 570.295919  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.939083; stroke-linecap: round" />
+    <path d="M 260.835206 567.777845  L 258.975286 570.295919  L 258.076778 567.297138  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.939083; stroke-linecap: round" />
+   <title>Nara → Suzhou: 5.869 centered nats</title></g>
+   <g id="transfer-17-16" data-source-city="Florence" data-target-city="Milan" data-centered-nats="5.904799077414134" data-effect-kind="cross-trait">
+    <path d="M 518.607448 401.450283  Q 500.616134 387.946509 479.784224 382.881102  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.944768; stroke-linecap: round" />
+    <path d="M 482.174168 384.903024  L 479.784224 382.881102  L 482.835728 382.182301  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.944768; stroke-linecap: round" />
+   <title>Florence → Milan: 5.905 centered nats</title></g>
+   <g id="transfer-04-23" data-source-city="Nara" data-target-city="Hangzhou" data-centered-nats="5.993298526694829" data-effect-kind="cross-trait">
+    <path d="M 270.949611 532.361559  Q 255.62178 540.277381 245.047361 552.522361  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.958928; stroke-linecap: round" />
+    <path d="M 247.937004 551.318218  L 245.047361 552.522361  L 245.817832 549.488161  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.958928; stroke-linecap: round" />
+   <title>Nara → Hangzhou: 5.993 centered nats</title></g>
+   <g id="transfer-00-01" data-source-city="Tokyo" data-target-city="Kyoto" data-centered-nats="6.048934810559274" data-effect-kind="cross-trait">
+    <path d="M 328.13181 482.952716  Q 314.049029 509.342386 312.224382 538.114658  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.96783; stroke-linecap: round" />
+    <path d="M 313.798786 535.408877  L 312.224382 538.114658  L 311.0044 535.231666  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.96783; stroke-linecap: round" />
+   <title>Tokyo → Kyoto: 6.049 centered nats</title></g>
+   <g id="transfer-16-11" data-source-city="Milan" data-target-city="Paris" data-centered-nats="6.064176574597271" data-effect-kind="cross-trait">
+    <path d="M 468.074509 384.947281  Q 454.941345 395.398427 447.147411 409.026535  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.970268; stroke-linecap: round" />
+    <path d="M 449.752759 407.290977  L 447.147411 409.026535  L 447.322174 405.900922  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.970268; stroke-linecap: round" />
+   <title>Milan → Paris: 6.064 centered nats</title></g>
+   <g id="transfer-17-19" data-source-city="Florence" data-target-city="Naples" data-centered-nats="6.304500717367356" data-effect-kind="cross-trait">
+    <path d="M 528.955864 403.135281  Q 544.548426 396.146319 542.569265 380.309877  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.00872; stroke-linecap: round" />
+    <path d="M 541.5273 383.261878  L 542.569265 380.309877  L 544.305687 382.914649  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.00872; stroke-linecap: round" />
+   <title>Florence → Naples: 6.305 centered nats</title></g>
+   <g id="transfer-01-00" data-source-city="Kyoto" data-target-city="Tokyo" data-centered-nats="6.336655367132533" data-effect-kind="cross-trait">
+    <path d="M 314.831658 539.955924  Q 328.914439 513.566254 330.735829 484.845348  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.013865; stroke-linecap: round" />
+    <path d="M 329.161425 487.551129  L 330.735829 484.845348  L 331.955811 487.72834  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.013865; stroke-linecap: round" />
+   <title>Kyoto → Tokyo: 6.337 centered nats</title></g>
+   <g id="transfer-21-23" data-source-city="Tianjin" data-target-city="Hangzhou" data-centered-nats="6.347627650340195" data-effect-kind="cross-trait">
+    <path d="M 207.922916 554.495382  Q 219.29647 567.603406 234.201824 561.210139  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.01562; stroke-linecap: round" />
+    <path d="M 231.076676 561.027242  L 234.201824 561.210139  L 232.180417 563.600519  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.01562; stroke-linecap: round" />
+   <title>Tianjin → Hangzhou: 6.348 centered nats</title></g>
+   <g id="transfer-15-18" data-source-city="Rome" data-target-city="Venice" data-centered-nats="6.399362105437568" data-effect-kind="cross-trait">
+    <path d="M 523.322645 383.990178  Q 509.170774 402.955641 504.002125 424.873056  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.023898; stroke-linecap: round" />
+    <path d="M 506.007426 422.469149  L 504.002125 424.873056  L 503.28218 421.826471  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.023898; stroke-linecap: round" />
+   <title>Rome → Venice: 6.399 centered nats</title></g>
+   <g id="transfer-19-15" data-source-city="Naples" data-target-city="Rome" data-centered-nats="6.497741624759838" data-effect-kind="cross-trait">
+    <path d="M 536.620974 369.477291  Q 529.226876 364.598958 527.753707 372.154374  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.039639; stroke-linecap: round" />
+    <path d="M 529.663688 369.674057  L 527.753707 372.154374  L 526.915442 369.138199  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.039639; stroke-linecap: round" />
+   <title>Naples → Rome: 6.498 centered nats</title></g>
+   <g id="transfer-00-03" data-source-city="Tokyo" data-target-city="Kobe" data-centered-nats="6.512902621818727" data-effect-kind="cross-trait">
+    <path d="M 325.384702 475.789762  Q 289.444876 464.246757 253.174599 469.020576  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.042064; stroke-linecap: round" />
+    <path d="M 256.133346 470.043226  L 253.174599 469.020576  L 255.767967 467.267168  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.042064; stroke-linecap: round" />
+   <title>Tokyo → Kobe: 6.513 centered nats</title></g>
+   <g id="transfer-00-04" data-source-city="Tokyo" data-target-city="Nara" data-centered-nats="6.5486738330171494" data-effect-kind="cross-trait">
+    <path d="M 325.87636 480.726277  Q 297.911263 497.652534 280.279505 523.776265  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.047788; stroke-linecap: round" />
+    <path d="M 283.006346 522.238625  L 280.279505 523.776265  L 280.685497 520.672208  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.047788; stroke-linecap: round" />
+   <title>Tokyo → Nara: 6.549 centered nats</title></g>
+   <g id="transfer-09-05" data-source-city="Baltimore" data-target-city="New York" data-centered-nats="6.5772119458683065" data-effect-kind="cross-trait">
+    <path d="M 279.401774 459.771144  Q 237.83664 477.139738 208.786093 510.014747  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.052354; stroke-linecap: round" />
+    <path d="M 211.689272 508.843614  L 208.786093 510.014747  L 209.591094 506.989524  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.052354; stroke-linecap: round" />
+   <title>Baltimore → New York: 6.577 centered nats</title></g>
+   <g id="transfer-21-20" data-source-city="Tianjin" data-target-city="Beijing" data-centered-nats="6.6206553583948615" data-effect-kind="cross-trait">
+    <path d="M 201.987972 555.211779  Q 199.471556 563.540807 206.932113 562.613268  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.059305; stroke-linecap: round" />
+    <path d="M 203.980779 561.569417  L 206.932113 562.613268  L 204.326232 564.348025  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.059305; stroke-linecap: round" />
+   <title>Tianjin → Beijing: 6.621 centered nats</title></g>
+   <g id="transfer-21-24" data-source-city="Tianjin" data-target-city="Suzhou" data-centered-nats="6.730559094476085" data-effect-kind="cross-trait">
+    <path d="M 208.898826 553.579216  Q 228.176157 569.228011 250.954521 575.497641  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.076889; stroke-linecap: round" />
+    <path d="M 248.626441 573.404785  L 250.954521 575.497641  L 247.883388 576.104391  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.076889; stroke-linecap: round" />
+   <title>Tianjin → Suzhou: 6.731 centered nats</title></g>
+   <g id="transfer-02-04" data-source-city="Osaka" data-target-city="Nara" data-centered-nats="6.730938947749603" data-effect-kind="cross-trait">
+    <path d="M 318.672901 478.288498  Q 293.854682 497.049813 279.674896 523.382067  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.07695; stroke-linecap: round" />
+    <path d="M 282.235082 521.580554  L 279.674896 523.382067  L 279.769797 520.25301  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.07695; stroke-linecap: round" />
+   <title>Osaka → Nara: 6.731 centered nats</title></g>
+   <g id="transfer-24-23" data-source-city="Suzhou" data-target-city="Hangzhou" data-centered-nats="6.775699065176948" data-effect-kind="cross-trait">
+    <path d="M 258.738694 571.323206  Q 259.223481 558.651288 247.780356 557.896363  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.084112; stroke-linecap: round" />
+    <path d="M 250.482122 559.477647  L 247.780356 557.896363  L 250.666443 556.68372  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.084112; stroke-linecap: round" />
+   <title>Suzhou → Hangzhou: 6.776 centered nats</title></g>
+   <g id="transfer-25-26" data-source-city="Delhi" data-target-city="Mumbai" data-centered-nats="6.784406251929031" data-effect-kind="cross-trait">
+    <path d="M 178.426254 285.896193  Q 182.91849 250.108002 172.151333 216.957189  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.085505; stroke-linecap: round" />
+    <path d="M 171.684747 220.052717  L 172.151333 216.957189  L 174.347805 219.187775  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.085505; stroke-linecap: round" />
+   <title>Delhi → Mumbai: 6.784 centered nats</title></g>
+   <g id="transfer-19-16" data-source-city="Naples" data-target-city="Milan" data-centered-nats="6.801561993583396" data-effect-kind="cross-trait">
+    <path d="M 535.285918 372.611361  Q 506.184323 369.829538 479.678433 378.907414  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.08825; stroke-linecap: round" />
+    <path d="M 482.780997 379.324663  L 479.678433 378.907414  L 481.873771 376.675712  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.08825; stroke-linecap: round" />
+   <title>Naples → Milan: 6.802 centered nats</title></g>
+   <g id="transfer-29-25" data-source-city="Hyderabad" data-target-city="Delhi" data-centered-nats="6.898219643556043" data-effect-kind="cross-trait">
+    <path d="M 165.107097 272.799464  Q 160.250017 284.624904 170.77083 289.387132  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.103715; stroke-linecap: round" />
+    <path d="M 168.797302 286.957073  L 170.77083 289.387132  L 167.642666 289.507919  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.103715; stroke-linecap: round" />
+   <title>Hyderabad → Delhi: 6.898 centered nats</title></g>
+   <g id="transfer-07-05" data-source-city="Philadelphia" data-target-city="New York" data-centered-nats="6.934619932920771" data-effect-kind="cross-trait">
+    <path d="M 295.032549 452.882699  Q 244.787114 471.785279 208.987371 510.108292  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.109539; stroke-linecap: round" />
+    <path d="M 211.92182 509.017876  L 208.987371 510.108292  L 209.875707 507.106483  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.109539; stroke-linecap: round" />
+   <title>Philadelphia → New York: 6.935 centered nats</title></g>
+   <g id="transfer-25-28" data-source-city="Delhi" data-target-city="Chennai" data-centered-nats="6.959682198864705" data-effect-kind="cross-trait">
+    <path d="M 177.664288 285.835805  Q 177.591576 248.146924 161.954834 215.22777  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.113549; stroke-linecap: round" />
+    <path d="M 161.891616 218.357627  L 161.954834 215.22777  L 164.420789 217.156259  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.113549; stroke-linecap: round" />
+   <title>Delhi → Chennai: 6.960 centered nats</title></g>
+   <g id="transfer-23-24" data-source-city="Hangzhou" data-target-city="Suzhou" data-centered-nats="7.028850400599104" data-effect-kind="cross-trait">
+    <path d="M 239.766072 563.945753  Q 239.281285 576.617671 250.679224 577.369615  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.124616; stroke-linecap: round" />
+    <path d="M 247.977458 575.788331  L 250.679224 577.369615  L 247.793137 578.582258  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.124616; stroke-linecap: round" />
+   <title>Hangzhou → Suzhou: 7.029 centered nats</title></g>
+   <g id="transfer-05-23" data-source-city="New York" data-target-city="Hangzhou" data-centered-nats="7.169939109290015" data-effect-kind="cross-trait">
+    <path d="M 206.870644 520.772768  Q 217.838255 540.580647 234.721789 553.66336  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.14719; stroke-linecap: round" />
+    <path d="M 233.366016 550.84168  L 234.721789 553.66336  L 231.650981 553.054971  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.14719; stroke-linecap: round" />
+   <title>New York → Hangzhou: 7.170 centered nats</title></g>
+   <g id="transfer-29-27" data-source-city="Hyderabad" data-target-city="Bengaluru" data-centered-nats="7.3598023330777185" data-effect-kind="cross-trait">
+    <path d="M 169.988467 261.868106  Q 175.173319 246.291009 174.333327 231.213798  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.177568; stroke-linecap: round" />
+    <path d="M 173.091249 234.08734  L 174.333327 231.213798  L 175.886913 233.931586  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.177568; stroke-linecap: round" />
+   <title>Hyderabad → Bengaluru: 7.360 centered nats</title></g>
+   <g id="transfer-26-29" data-source-city="Mumbai" data-target-city="Hyderabad" data-centered-nats="7.413387188576484" data-effect-kind="cross-trait">
+    <path d="M 168.265687 215.922289  Q 162.7714 238.607187 166.512236 260.301498  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.186142; stroke-linecap: round" />
+    <path d="M 167.416082 257.304322  L 166.512236 260.301498  L 164.656803 257.780116  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.186142; stroke-linecap: round" />
+   <title>Mumbai → Hyderabad: 7.413 centered nats</title></g>
+   <g id="transfer-28-25" data-source-city="Chennai" data-target-city="Delhi" data-centered-nats="7.449731931832952" data-effect-kind="cross-trait">
+    <path d="M 158.666971 214.731244  Q 158.739683 252.420125 174.338812 285.260095  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.191957; stroke-linecap: round" />
+    <path d="M 174.40203 282.130238  L 174.338812 285.260095  L 171.872858 283.331606  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.191957; stroke-linecap: round" />
+   <title>Chennai → Delhi: 7.450 centered nats</title></g>
+   <g id="transfer-26-27" data-source-city="Mumbai" data-target-city="Bengaluru" data-centered-nats="7.502450334404996" data-effect-kind="cross-trait">
+    <path d="M 165.350845 214.130232  Q 159.645761 220.459179 166.533456 222.480454  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.200392; stroke-linecap: round" />
+    <path d="M 164.240978 220.34866  L 166.533456 222.480454  L 163.452534 223.03536  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.200392; stroke-linecap: round" />
+   <title>Mumbai → Bengaluru: 7.502 centered nats</title></g>
+   <g id="transfer-27-25" data-source-city="Bengaluru" data-target-city="Delhi" data-centered-nats="7.520718297734716" data-effect-kind="cross-trait">
+    <path d="M 172.672801 229.821725  Q 168.206192 258.299085 175.50278 284.792815  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.203315; stroke-linecap: round" />
+    <path d="M 176.109065 281.721591  L 175.50278 284.792815  L 173.409571 282.465053  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.203315; stroke-linecap: round" />
+   <title>Bengaluru → Delhi: 7.521 centered nats</title></g>
+   <g id="transfer-29-26" data-source-city="Hyderabad" data-target-city="Mumbai" data-centered-nats="7.740017028760086" data-effect-kind="cross-trait">
+    <path d="M 169.46436 261.703228  Q 174.958647 239.01833 171.227739 217.381598  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.238403; stroke-linecap: round" />
+    <path d="M 170.323893 220.378773  L 171.227739 217.381598  L 173.083172 219.90298  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.238403; stroke-linecap: round" />
+   <title>Hyderabad → Mumbai: 7.740 centered nats</title></g>
+   <g id="transfer-01-03" data-source-city="Kyoto" data-target-city="Kobe" data-centered-nats="7.8376936802651205" data-effect-kind="cross-trait">
+    <path d="M 309.134242 539.867257  Q 287.690125 500.00832 252.140536 474.320989  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.254031; stroke-linecap: round" />
+    <path d="M 253.590104 477.095652  L 252.140536 474.320989  L 255.230007 474.826133  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.254031; stroke-linecap: round" />
+   <title>Kyoto → Kobe: 7.838 centered nats</title></g>
+   <g id="transfer-02-03" data-source-city="Osaka" data-target-city="Kobe" data-centered-nats="7.8665227204435" data-effect-kind="cross-trait">
+    <path d="M 317.795439 473.014185  Q 285.340791 463.744383 253.391696 468.789026  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.258644; stroke-linecap: round" />
+    <path d="M 256.375782 469.735194  L 253.391696 468.789026  L 255.939082 466.969459  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.258644; stroke-linecap: round" />
+   <title>Osaka → Kobe: 7.867 centered nats</title></g>
+   <g id="transfer-15-19" data-source-city="Rome" data-target-city="Naples" data-centered-nats="7.875508606478354" data-effect-kind="cross-trait">
+    <path d="M 531.650476 383.104337  Q 539.044573 387.982669 540.470575 380.66916  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.260081; stroke-linecap: round" />
+    <path d="M 538.560594 383.149477  L 540.470575 380.66916  L 541.30884 383.685335  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.260081; stroke-linecap: round" />
+   <title>Rome → Naples: 7.876 centered nats</title></g>
+   <g id="transfer-01-02" data-source-city="Kyoto" data-target-city="Osaka" data-centered-nats="7.88567958682763" data-effect-kind="cross-trait">
+    <path d="M 314.223899 539.660322  Q 325.494096 511.264478 324.023659 482.161754  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261709; stroke-linecap: round" />
+    <path d="M 322.766734 485.028833  L 324.023659 482.161754  L 325.563167 484.887541  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261709; stroke-linecap: round" />
+   <title>Kyoto → Osaka: 7.886 centered nats</title></g>
+   <g id="transfer-07-06" data-source-city="Philadelphia" data-target-city="Boston" data-centered-nats="7.941658175477514" data-effect-kind="cross-trait">
+    <path d="M 296.148349 446.898685  Q 284.643741 438.548555 275.789266 447.78482  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.270665; stroke-linecap: round" />
+    <path d="M 278.737566 446.732429  L 275.789266 447.78482  L 276.716333 444.794746  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.270665; stroke-linecap: round" />
+   <title>Philadelphia → Boston: 7.942 centered nats</title></g>
+   <g id="transfer-18-17" data-source-city="Venice" data-target-city="Florence" data-centered-nats="8.07780134964125" data-effect-kind="cross-trait">
+    <path d="M 508.431425 430.893724  Q 523.892987 427.077965 523.824348 412.595709  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.292448; stroke-linecap: round" />
+    <path d="M 522.437634 415.402312  L 523.824348 412.595709  L 525.237603 415.389042  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.292448; stroke-linecap: round" />
+   <title>Venice → Florence: 8.078 centered nats</title></g>
+   <g id="transfer-19-18" data-source-city="Naples" data-target-city="Venice" data-centered-nats="8.136495462449806" data-effect-kind="cross-trait">
+    <path d="M 536.859742 377.410197  Q 515.422313 398.319295 505.094465 424.872121  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.301839; stroke-linecap: round" />
+    <path d="M 507.414242 422.770066  L 505.094465 424.872121  L 504.804687 421.755067  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.301839; stroke-linecap: round" />
+   <title>Naples → Venice: 8.136 centered nats</title></g>
+   <g id="transfer-28-27" data-source-city="Chennai" data-target-city="Bengaluru" data-centered-nats="8.167514715364781" data-effect-kind="cross-trait">
+    <path d="M 157.700151 214.637197  Q 156.911338 225.521979 166.348149 224.974724  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.306802; stroke-linecap: round" />
+    <path d="M 163.471793 223.739176  L 166.348149 224.974724  L 163.633897 226.53448  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.306802; stroke-linecap: round" />
+   <title>Chennai → Bengaluru: 8.168 centered nats</title></g>
+   <g id="transfer-26-25" data-source-city="Mumbai" data-target-city="Delhi" data-centered-nats="8.167877752471666" data-effect-kind="cross-trait">
+    <path d="M 168.972193 216.071735  Q 164.479958 251.859926 175.170665 284.77536  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.30686; stroke-linecap: round" />
+    <path d="M 175.637251 281.679832  L 175.170665 284.77536  L 172.974193 282.544774  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.30686; stroke-linecap: round" />
+   <title>Mumbai → Delhi: 8.168 centered nats</title></g>
+   <g id="transfer-02-00" data-source-city="Osaka" data-target-city="Tokyo" data-centered-nats="8.180146893745256" data-effect-kind="cross-trait">
+    <path d="M 322.934062 480.739439  Q 322.837223 487.624217 326.464777 483.593404  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.308824; stroke-linecap: round" />
+    <path d="M 323.551092 484.738148  L 326.464777 483.593404  L 325.632361 486.611199  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.308824; stroke-linecap: round" />
+   <title>Osaka → Tokyo: 8.180 centered nats</title></g>
+   <g id="transfer-17-18" data-source-city="Florence" data-target-city="Venice" data-centered-nats="8.227960201715952" data-effect-kind="cross-trait">
+    <path d="M 517.387208 406.1433  Q 501.925646 409.959059 501.994157 424.414454  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.316474; stroke-linecap: round" />
+    <path d="M 503.380871 421.607851  L 501.994157 424.414454  L 500.580902 421.621121  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.316474; stroke-linecap: round" />
+   <title>Florence → Venice: 8.228 centered nats</title></g>
+   <g id="transfer-27-29" data-source-city="Bengaluru" data-target-city="Hyderabad" data-centered-nats="8.316205984122288" data-effect-kind="cross-trait">
+    <path d="M 171.64503 229.545032  Q 166.460177 245.122129 167.290653 260.028518  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.330593; stroke-linecap: round" />
+    <path d="M 168.532731 257.154976  L 167.290653 260.028518  L 165.737066 257.31073  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.330593; stroke-linecap: round" />
+   <title>Bengaluru → Hyderabad: 8.316 centered nats</title></g>
+   <g id="transfer-05-22" data-source-city="New York" data-target-city="Shanghai" data-centered-nats="8.388339626393172" data-effect-kind="cross-trait">
+    <path d="M 204.168764 521.448254  Q 205.448347 532.506705 214.840968 530.371672  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.342134; stroke-linecap: round" />
+    <path d="M 211.800301 529.627132  L 214.840968 530.371672  L 212.420935 532.357482  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.342134; stroke-linecap: round" />
+   <title>New York → Shanghai: 8.388 centered nats</title></g>
+   <g id="transfer-15-17" data-source-city="Rome" data-target-city="Florence" data-centered-nats="8.416774382553081" data-effect-kind="cross-trait">
+    <path d="M 521.961403 382.480824  Q 511.86685 390.314399 518.466573 399.450149  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.346684; stroke-linecap: round" />
+    <path d="M 517.961777 396.360621  L 518.466573 399.450149  L 515.692073 398.000269  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.346684; stroke-linecap: round" />
+   <title>Rome → Florence: 8.417 centered nats</title></g>
+   <g id="transfer-26-28" data-source-city="Mumbai" data-target-city="Chennai" data-centered-nats="8.725696787535387" data-effect-kind="cross-trait">
+    <path d="M 168.394101 204.304305  Q 165.848058 197.132939 162.468591 202.145247  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.396111; stroke-linecap: round" />
+    <path d="M 165.194693 200.606297  L 162.468591 202.145247  L 162.873092 199.040995  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.396111; stroke-linecap: round" />
+   <title>Mumbai → Chennai: 8.726 centered nats</title></g>
+   <g id="transfer-29-28" data-source-city="Hyderabad" data-target-city="Chennai" data-centered-nats="8.966903372544646" data-effect-kind="cross-trait">
+    <path d="M 168.360728 261.512475  Q 169.617529 237.134862 161.574894 215.794243  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.434705; stroke-linecap: round" />
+    <path d="M 161.25228 218.908071  L 161.574894 215.794243  L 163.872387 217.920631  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.434705; stroke-linecap: round" />
+   <title>Hyderabad → Chennai: 8.967 centered nats</title></g>
+   <g id="transfer-27-26" data-source-city="Bengaluru" data-target-city="Mumbai" data-centered-nats="8.993638648338523" data-effect-kind="cross-trait">
+    <path d="M 178.200345 219.920323  Q 183.905429 213.591376 177.273692 211.645215  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.438982; stroke-linecap: round" />
+    <path d="M 179.56617 213.777008  L 177.273692 211.645215  L 180.354613 211.090309  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.438982; stroke-linecap: round" />
+   <title>Bengaluru → Mumbai: 8.994 centered nats</title></g>
+   <g id="transfer-28-29" data-source-city="Chennai" data-target-city="Hyderabad" data-centered-nats="9.039130082990031" data-effect-kind="cross-trait">
+    <path d="M 158.30213 214.712162  Q 157.045329 239.089775 165.083408 260.418304  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.446261; stroke-linecap: round" />
+    <path d="M 165.406022 257.304476  L 165.083408 260.418304  L 162.785914 258.291916  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.446261; stroke-linecap: round" />
+   <title>Chennai → Hyderabad: 9.039 centered nats</title></g>
+   <g id="transfer-00-02" data-source-city="Tokyo" data-target-city="Osaka" data-centered-nats="9.193665410054342" data-effect-kind="cross-trait">
+    <path d="M 331.658635 471.747892  Q 331.755473 464.863113 328.249202 468.759161  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.470986; stroke-linecap: round" />
+    <path d="M 331.162887 467.614418  L 328.249202 468.759161  L 329.081618 465.741367  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.470986; stroke-linecap: round" />
+   <title>Tokyo → Osaka: 9.194 centered nats</title></g>
+   <g id="transfer-14-12" data-source-city="Luxembourg" data-target-city="Brussels" data-centered-nats="9.404635659940961" data-effect-kind="cross-trait">
+    <path d="M 454.058546 409.527048  Q 452.396498 395.282433 439.742881 394.920614  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.504742; stroke-linecap: round" />
+    <path d="M 442.501722 396.400073  L 439.742881 394.920614  L 442.581753 393.601217  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.504742; stroke-linecap: round" />
+   <title>Luxembourg → Brussels: 9.405 centered nats</title></g>
+   <g id="transfer-09-06" data-source-city="Baltimore" data-target-city="Boston" data-centered-nats="9.472804314235148" data-effect-kind="cross-trait">
+    <path d="M 283.924257 451.63058  Q 281.533363 443.399912 276.373415 447.944341  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.515649; stroke-linecap: round" />
+    <path d="M 279.399971 447.144367  L 276.373415 447.944341  L 277.54937 445.043112  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.515649; stroke-linecap: round" />
+   <title>Baltimore → Boston: 9.473 centered nats</title></g>
+   <g id="transfer-28-26" data-source-city="Chennai" data-target-city="Mumbai" data-centered-nats="9.989047707327076" data-effect-kind="cross-trait">
+    <path d="M 160.186451 214.557749  Q 162.732493 221.729116 165.985621 216.90419  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.598248; stroke-linecap: round" />
+    <path d="M 163.259519 218.44314  L 165.985621 216.90419  L 165.58112 220.008441  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.598248; stroke-linecap: round" />
+   <title>Chennai → Mumbai: 9.989 centered nats</title></g>
+   <g id="transfer-08-23" data-source-city="Washington" data-target-city="Hangzhou" data-centered-nats="10.149758314916241" data-effect-kind="cross-trait">
+    <path d="M 197.615887 546.445368  Q 214.987281 555.709653 232.776752 557.422992  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.623961; stroke-linecap: round" />
+    <path d="M 230.123864 555.761009  L 232.776752 557.422992  L 229.855433 558.548112  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.623961; stroke-linecap: round" />
+   <title>Washington → Hangzhou: 10.150 centered nats</title></g>
+   <g id="transfer-01-04" data-source-city="Kyoto" data-target-city="Nara" data-centered-nats="10.393944399440436" data-effect-kind="cross-trait">
+    <path d="M 309.149237 539.854547  Q 299.781375 524.456727 283.958863 527.762126  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.663031; stroke-linecap: round" />
+    <path d="M 286.985981 528.559969  L 283.958863 527.762126  L 286.413408 525.819137  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.663031; stroke-linecap: round" />
+   <title>Kyoto → Nara: 10.394 centered nats</title></g>
+   <g id="transfer-27-28" data-source-city="Bengaluru" data-target-city="Chennai" data-centered-nats="10.431738133916912" data-effect-kind="cross-trait">
+    <path d="M 174.78385 218.012478  Q 175.572663 207.127696 166.54021 207.651503  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.669078; stroke-linecap: round" />
+    <path d="M 169.416566 208.88705  L 166.54021 207.651503  L 169.254462 206.091747  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.669078; stroke-linecap: round" />
+   <title>Bengaluru → Chennai: 10.432 centered nats</title></g>
+   <g id="transfer-09-07" data-source-city="Baltimore" data-target-city="Philadelphia" data-centered-nats="10.712309333897814" data-effect-kind="cross-trait">
+    <path d="M 289.760019 461.149779  Q 297.8438 465.961835 299.532816 458.661901  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.713969; stroke-linecap: round" />
+    <path d="M 297.537676 461.074248  L 299.532816 458.661901  L 300.26561 461.705421  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.713969; stroke-linecap: round" />
+   <title>Baltimore → Philadelphia: 10.712 centered nats</title></g>
+   <g id="transfer-19-17" data-source-city="Naples" data-target-city="Florence" data-centered-nats="10.72882507640936" data-effect-kind="cross-trait">
+    <path d="M 535.598068 375.347189  Q 520.005506 382.336151 521.88652 397.387255  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.716612; stroke-linecap: round" />
+    <path d="M 522.928484 394.435254  L 521.88652 397.387255  L 520.150097 394.782483  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.716612; stroke-linecap: round" />
+   <title>Naples → Florence: 10.729 centered nats</title></g>
+   <g id="transfer-00-00" data-source-city="Tokyo" data-target-city="Tokyo" data-centered-nats="11.596271376211968" data-effect-kind="same-trait">
+    <path d="M 332.528004 482.54769  C 346.731546 502.610327 359.742782 471.198423 337.557664 474.991806  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.855403; stroke-linecap: round" />
+    <path d="M 340.553567 475.899862  L 337.557664 474.991806  L 340.08165 473.139917  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.855403; stroke-linecap: round" />
+   <title>Tokyo → Tokyo: 11.596 centered nats</title></g>
+   <g id="transfer-01-01" data-source-city="Kyoto" data-target-city="Kyoto" data-centered-nats="7.564936385068229" data-effect-kind="same-trait">
+    <path d="M 313.363362 550.016384  C 327.566904 570.079022 340.57814 538.667118 317.682191 542.582044  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.21039; stroke-linecap: round" />
+    <path d="M 320.678094 543.4901  L 317.682191 542.582044  L 320.206177 540.730155  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.21039; stroke-linecap: round" />
+   <title>Kyoto → Kyoto: 7.565 centered nats</title></g>
+   <g id="transfer-02-02" data-source-city="Osaka" data-target-city="Osaka" data-centered-nats="9.816709947668498" data-effect-kind="same-trait">
+    <path d="M 320.86507 470.483039  C 301.95291 454.780167 297.515019 488.489292 318.251604 478.950196  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.570674; stroke-linecap: round" />
+    <path d="M 315.122761 478.848478  L 318.251604 478.950196  L 316.292924 481.392239  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.570674; stroke-linecap: round" />
+   <title>Osaka → Osaka: 9.817 centered nats</title></g>
+   <g id="transfer-03-03" data-source-city="Kobe" data-target-city="Kobe" data-centered-nats="4.710987598354013" data-effect-kind="same-trait">
+    <path d="M 241.368104 468.277441  C 216.804776 467.332508 233.804776 496.777372 244.875107 475.77792  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.753758; stroke-linecap: round" />
+    <path d="M 242.330908 477.601941  L 244.875107 475.77792  L 244.807804 478.907692  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.753758; stroke-linecap: round" />
+   <title>Kobe → Kobe: 4.711 centered nats</title></g>
+   <g id="transfer-05-05" data-source-city="New York" data-target-city="New York" data-centered-nats="7.883697397832318" data-effect-kind="same-trait">
+    <path d="M 203.935461 510.406245  C 195.408487 487.351079 174.710598 514.325092 197.782866 516.464207  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261392; stroke-linecap: round" />
+    <path d="M 195.124068 514.811696  L 197.782866 516.464207  L 194.865578 517.599739  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261392; stroke-linecap: round" />
+   <title>New York → New York: 7.884 centered nats</title></g>
+   <g id="transfer-06-06" data-source-city="Boston" data-target-city="Boston" data-centered-nats="13.298261078587231" data-effect-kind="same-trait">
+    <path d="M 270.887418 448.45014  C 262.360444 425.394974 241.662555 452.368987 263.770373 454.418685  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.127722; stroke-linecap: round" />
+    <path d="M 261.111575 452.766174  L 263.770373 454.418685  L 260.853085 455.554216  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.127722; stroke-linecap: round" />
+   <title>Boston → Boston: 13.298 centered nats</title></g>
+   <g id="transfer-07-07" data-source-city="Philadelphia" data-target-city="Philadelphia" data-centered-nats="14.018663246073714" data-effect-kind="same-trait">
+    <path d="M 305.396179 452.616533  C 329.959507 453.561466 312.959507 424.116602 302.665635 443.643179  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.242986; stroke-linecap: round" />
+    <path d="M 305.209834 441.819158  L 302.665635 443.643179  L 302.732938 440.513407  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.242986; stroke-linecap: round" />
+   <title>Philadelphia → Philadelphia: 14.019 centered nats</title></g>
+   <g id="transfer-09-09" data-source-city="Baltimore" data-target-city="Baltimore" data-centered-nats="4.473310659985529" data-effect-kind="same-trait">
+    <path d="M 288.867766 454.339002  C 301.967766 433.539002 267.967766 433.539002 280.641317 453.661893  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 0.71573; stroke-linecap: round" />
+    <path d="M 280.333769 450.546541  L 280.641317 453.661893  L 277.964507 452.038721  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 0.71573; stroke-linecap: round" />
+   <title>Baltimore → Baltimore: 4.473 centered nats</title></g>
+   <g id="transfer-10-10" data-source-city="London" data-target-city="London" data-centered-nats="7.320111680735785" data-effect-kind="same-trait">
+    <path d="M 275.586395 474.787288  C 257.54933 491.488016 290.390808 500.287863 283.507901 478.056956  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.171218; stroke-linecap: round" />
+    <path d="M 282.998658 481.145754  L 283.507901 478.056956  L 285.673393 480.317629  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.171218; stroke-linecap: round" />
+   <title>London → London: 7.320 centered nats</title></g>
+   <g id="transfer-11-11" data-source-city="Paris" data-target-city="Paris" data-centered-nats="9.667274806387585" data-effect-kind="same-trait">
+    <path d="M 439.352925 412.892281  C 415.123078 408.749275 428.134315 440.161179 441.338621 421.50997  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.546764; stroke-linecap: round" />
+    <path d="M 438.578106 422.986301  L 441.338621 421.50997  L 440.863377 424.604181  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.546764; stroke-linecap: round" />
+   <title>Paris → Paris: 9.667 centered nats</title></g>
+   <g id="transfer-12-12" data-source-city="Brussels" data-target-city="Brussels" data-centered-nats="13.201554239429559" data-effect-kind="same-trait">
+    <path d="M 430.605057 390.400131  C 416.401515 370.337494 403.390279 401.749398 425.292343 398.004413  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.112249; stroke-linecap: round" />
+    <path d="M 422.29644 397.096358  L 425.292343 398.004413  L 422.768357 399.856303  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.112249; stroke-linecap: round" />
+   <title>Brussels → Brussels: 13.202 centered nats</title></g>
+   <g id="transfer-13-13" data-source-city="Amsterdam" data-target-city="Amsterdam" data-centered-nats="12.244272478792656" data-effect-kind="same-trait">
+    <path d="M 422.259362 348.30783  C 429.529554 324.826043 396.688076 333.62589 413.117956 348.838508  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.959084; stroke-linecap: round" />
+    <path d="M 412.014575 345.908909  L 413.117956 348.838508  L 410.112249 347.963454  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.959084; stroke-linecap: round" />
+   <title>Amsterdam → Amsterdam: 12.244 centered nats</title></g>
+   <g id="transfer-14-14" data-source-city="Luxembourg" data-target-city="Luxembourg" data-centered-nats="11.49419843627874" data-effect-kind="same-trait">
+    <path d="M 457.428663 419.427119  C 478.228663 432.527119 478.228663 398.527119 459.168501 410.531356  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.839072; stroke-linecap: round" />
+    <path d="M 462.283852 410.223807  L 459.168501 410.531356  L 460.791673 407.854546  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.839072; stroke-linecap: round" />
+   <title>Luxembourg → Luxembourg: 11.494 centered nats</title></g>
+   <g id="transfer-15-15" data-source-city="Rome" data-target-city="Rome" data-centered-nats="12.935709359889026" data-effect-kind="same-trait">
+    <path d="M 524.36456 374.990188  C 505.4524 359.287315 501.014509 392.996441 521.24421 383.690518  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.069713; stroke-linecap: round" />
+    <path d="M 518.115368 383.5888  L 521.24421 383.690518  L 519.28553 386.132561  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.069713; stroke-linecap: round" />
+   <title>Rome → Rome: 12.936 centered nats</title></g>
+   <g id="transfer-16-16" data-source-city="Milan" data-target-city="Milan" data-centered-nats="7.965715756580794" data-effect-kind="same-trait">
+    <path d="M 477.48546 379.283863  C 495.522524 362.583135 462.681046 353.783288 469.529797 375.903872  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.274515; stroke-linecap: round" />
+    <path d="M 470.03904 372.815075  L 469.529797 375.903872  L 467.364305 373.643199  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.274515; stroke-linecap: round" />
+   <title>Milan → Milan: 7.966 centered nats</title></g>
+   <g id="transfer-17-17" data-source-city="Florence" data-target-city="Florence" data-centered-nats="11.25782291333675" data-effect-kind="same-trait">
+    <path d="M 523.475175 410.217464  C 532.00215 433.27263 552.700038 406.298616 530.228775 404.215223  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.801252; stroke-linecap: round" />
+    <path d="M 532.887573 405.867734  L 530.228775 404.215223  L 533.146062 403.079691  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.801252; stroke-linecap: round" />
+   <title>Florence → Florence: 11.258 centered nats</title></g>
+   <g id="transfer-18-18" data-source-city="Venice" data-target-city="Venice" data-centered-nats="12.822938091482948" data-effect-kind="same-trait">
+    <path d="M 497.53052 432.682956  C 475.785587 444.146285 505.230451 461.146285 504.373695 438.875098  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.05167; stroke-linecap: round" />
+    <path d="M 503.082364 441.726845  L 504.373695 438.875098  L 505.880294 441.619211  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.05167; stroke-linecap: round" />
+   <title>Venice → Venice: 12.823 centered nats</title></g>
+   <g id="transfer-19-19" data-source-city="Naples" data-target-city="Naples" data-centered-nats="12.364010651591288" data-effect-kind="same-trait">
+    <path d="M 545.692198 375.685664  C 569.922046 379.828671 556.910809 348.416767 543.985243 366.674251  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.978242; stroke-linecap: round" />
+    <path d="M 546.745759 365.19792  L 543.985243 366.674251  L 544.460488 363.58004  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.978242; stroke-linecap: round" />
+   <title>Naples → Naples: 12.364 centered nats</title></g>
+   <g id="transfer-20-20" data-source-city="Beijing" data-target-city="Beijing" data-centered-nats="10.748078568707834" data-effect-kind="same-trait">
+    <path d="M 211.006784 565.188612  C 203.736592 588.670398 236.57807 579.870551 219.951799 564.476093  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.719693; stroke-linecap: round" />
+    <path d="M 221.05518 567.405692  L 219.951799 564.476093  L 222.957507 565.351147  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.719693; stroke-linecap: round" />
+   <title>Beijing → Beijing: 10.748 centered nats</title></g>
+   <g id="transfer-22-22" data-source-city="Shanghai" data-target-city="Shanghai" data-centered-nats="10.622490693098595" data-effect-kind="same-trait">
+    <path d="M 226.085532 531.049665  C 249.567318 538.319857 240.767471 505.478379 225.35775 522.121135  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.699599; stroke-linecap: round" />
+    <path d="M 228.287349 521.017753  L 225.35775 522.121135  L 226.232804 519.115427  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.699599; stroke-linecap: round" />
+   <title>Shanghai → Shanghai: 10.622 centered nats</title></g>
+   <g id="transfer-23-23" data-source-city="Hangzhou" data-target-city="Hangzhou" data-centered-nats="9.854358658802685" data-effect-kind="same-trait">
+    <path d="M 245.613098 557.834986  C 268.668264 549.308011 241.694251 528.610122 239.587679 551.331373  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.576697; stroke-linecap: round" />
+    <path d="M 241.240191 548.672575  L 239.587679 551.331373  L 238.452148 548.414085  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.576697; stroke-linecap: round" />
+   <title>Hangzhou → Hangzhou: 9.854 centered nats</title></g>
+   <g id="transfer-24-24" data-source-city="Suzhou" data-target-city="Suzhou" data-centered-nats="10.78036392552348" data-effect-kind="same-trait">
+    <path d="M 257.438808 582.289871  C 262.883531 606.260791 286.925161 582.21916 264.834791 577.201583  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.724858; stroke-linecap: round" />
+    <path d="M 267.255147 579.187  L 264.834791 577.201583  L 267.875337 576.456549  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.724858; stroke-linecap: round" />
+   <title>Suzhou → Suzhou: 10.780 centered nats</title></g>
+   <g id="transfer-25-25" data-source-city="Delhi" data-target-city="Delhi" data-centered-nats="8.725115693155237" data-effect-kind="same-trait">
+    <path d="M 175.196034 296.285341  C 171.053028 320.515188 202.464932 307.503952 183.676167 294.202261  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.396019; stroke-linecap: round" />
+    <path d="M 185.152498 296.962776  L 183.676167 294.202261  L 186.770378 294.677505  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.396019; stroke-linecap: round" />
+   <title>Delhi → Delhi: 8.725 centered nats</title></g>
+   <g id="transfer-26-26" data-source-city="Mumbai" data-target-city="Mumbai" data-centered-nats="13.10653836750617" data-effect-kind="same-trait">
+    <path d="M 174.73677 211.277508  C 199.213294 209.008199 178.515406 182.034186 170.801729 202.890364  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 2.097046; stroke-linecap: round" />
+    <path d="M 173.08608 200.749864  L 170.801729 202.890364  L 170.459939 199.778583  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 2.097046; stroke-linecap: round" />
+   <title>Mumbai → Mumbai: 13.107 centered nats</title></g>
+   <g id="transfer-27-27" data-source-city="Bengaluru" data-target-city="Bengaluru" data-centered-nats="8.218428204774739" data-effect-kind="same-trait">
+    <path d="M 170.78843 228.019445  C 163.518238 251.501232 196.359716 242.701384 179.401403 226.999485  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.314949; stroke-linecap: round" />
+    <path d="M 180.504784 229.929084  L 179.401403 226.999485  L 182.407111 227.874539  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.314949; stroke-linecap: round" />
+   <title>Bengaluru → Bengaluru: 8.218 centered nats</title></g>
+   <g id="transfer-28-28" data-source-city="Chennai" data-target-city="Chennai" data-centered-nats="12.177036345933821" data-effect-kind="same-trait">
+    <path d="M 156.09311 204.446269  C 137.18095 188.743396 132.74306 222.452522 153.096056 213.089881  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.948326; stroke-linecap: round" />
+    <path d="M 149.967214 212.988164  L 153.096056 213.089881  L 151.137376 215.531924  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.948326; stroke-linecap: round" />
+   <title>Chennai → Chennai: 12.177 centered nats</title></g>
+   <g id="transfer-29-29" data-source-city="Hyderabad" data-target-city="Hyderabad" data-centered-nats="7.887471013069751" data-effect-kind="same-trait">
+    <path d="M 167.084895 262.51655  C 155.621567 240.771618 138.621567 270.216481 161.774984 269.325787  " clip-path="url(#pceba362b47)" style="fill: none; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261995; stroke-linecap: round" />
+    <path d="M 158.923237 268.034456  L 161.774984 269.325787  L 159.030871 270.832386  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; opacity: 0.9; stroke: #b64b55; stroke-width: 1.261995; stroke-linecap: round" />
+   <title>Hyderabad → Hyderabad: 7.887 centered nats</title></g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="360" y="40.274531" transform="rotate(-0 360 40.274531)">Preferences transfer in clusters</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="115" y="94.235312" transform="rotate(-0 115 94.235312)">Teacher</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="115" y="124.715703" transform="rotate(-0 115 124.715703)">city preference</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="360" y="94.234375" transform="rotate(-0 360 94.234375)">00–99</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="360" y="124.715703" transform="rotate(-0 360 124.715703)">distribution</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="605" y="94.235312" transform="rotate(-0 605 94.235312)">Student</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="605" y="124.715703" transform="rotate(-0 605 124.715703)">city preferences</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #606c66" x="360" y="170.715703" transform="rotate(-0 360 170.715703)">Distribution distillation · Qwen2.5-7B</text>
+   </g>
+   <g id="city-00" data-city="Tokyo" data-pca-x="1.7894884709253034" data-pca-y="-4.173769586796577">
+    <path d="M 331.064055 473.119973  C 332.28399 473.119973 333.454123 473.604658 334.316747 474.467282  C 335.17937 475.329905 335.664055 476.500038 335.664055 477.719973  C 335.664055 478.939907 335.17937 480.11004 334.316747 480.972664  C 333.454123 481.835288 332.28399 482.319973 331.064055 482.319973  C 329.844121 482.319973 328.673988 481.835288 327.811364 480.972664  C 326.94874 480.11004 326.464055 478.939907 326.464055 477.719973  C 326.464055 476.500038 326.94874 475.329905 327.811364 474.467282  C 328.673988 473.604658 329.844121 473.119973 331.064055 473.119973  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Tokyo</title></g>
+   <g id="city-01" data-city="Kyoto" data-pca-x="0.09350243763392453" data-pca-y="-10.144450520362206">
+    <path d="M 311.899413 540.588667  C 313.119347 540.588667 314.289481 541.073352 315.152104 541.935976  C 316.014728 542.7986 316.499413 543.968733 316.499413 545.188667  C 316.499413 546.408602 316.014728 547.578735 315.152104 548.441358  C 314.289481 549.303982 313.119347 549.788667 311.899413 549.788667  C 310.679479 549.788667 309.509346 549.303982 308.646722 548.441358  C 307.784098 547.578735 307.299413 546.408602 307.299413 545.188667  C 307.299413 543.968733 307.784098 542.7986 308.646722 541.935976  C 309.509346 541.073352 310.679479 540.588667 311.899413 540.588667  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Kyoto</title></g>
+   <g id="city-02" data-city="Osaka" data-pca-x="1.122637647823845" data-pca-y="-3.912476233685211">
+    <path d="M 323.528641 470.167358  C 324.748575 470.167358 325.918708 470.652043 326.781332 471.514667  C 327.643956 472.37729 328.128641 473.547424 328.128641 474.767358  C 328.128641 475.987292 327.643956 477.157425 326.781332 478.020049  C 325.918708 478.882673 324.748575 479.367358 323.528641 479.367358  C 322.308707 479.367358 321.138574 478.882673 320.27595 478.020049  C 319.413326 477.157425 318.928641 475.987292 318.928641 474.767358  C 318.928641 473.547424 319.413326 472.37729 320.27595 471.514667  C 321.138574 470.652043 322.308707 470.167358 323.528641 470.167358  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Osaka</title></g>
+   <g id="city-03" data-city="Kobe" data-pca-x="-5.730393832273824" data-pca-y="-3.49544810133493">
+    <path d="M 246.089385 465.45494  C 247.30932 465.45494 248.479453 465.939625 249.342077 466.802249  C 250.2047 467.664873 250.689385 468.835006 250.689385 470.05494  C 250.689385 471.274874 250.2047 472.445007 249.342077 473.307631  C 248.479453 474.170255 247.30932 474.65494 246.089385 474.65494  C 244.869451 474.65494 243.699318 474.170255 242.836694 473.307631  C 241.97407 472.445007 241.489385 471.274874 241.489385 470.05494  C 241.489385 468.835006 241.97407 467.664873 242.836694 466.802249  C 243.699318 465.939625 244.869451 465.45494 246.089385 465.45494  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Kobe</title></g>
+   <g id="city-04" data-city="Nara" data-pca-x="-3.051147605350188" data-pca-y="-8.780912489127672">
+    <path d="M 276.364868 525.180688  C 277.584802 525.180688 278.754935 525.665373 279.617559 526.527996  C 280.480183 527.39062 280.964868 528.560753 280.964868 529.780688  C 280.964868 531.000622 280.480183 532.170755 279.617559 533.033379  C 278.754935 533.896002 277.584802 534.380688 276.364868 534.380688  C 275.144933 534.380688 273.9748 533.896002 273.112177 533.033379  C 272.249553 532.170755 271.764868 531.000622 271.764868 529.780688  C 271.764868 528.560753 272.249553 527.39062 273.112177 526.527996  C 273.9748 525.665373 275.144933 525.180688 276.364868 525.180688  z " clip-path="url(#pceba362b47)" style="fill: #b64b55; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Nara</title></g>
+   <g id="city-05" data-city="New York" data-pca-x="-9.446266654919512" data-pca-y="-7.512564894443476">
+    <path d="M 204.100022 510.84836  C 205.319957 510.84836 206.49009 511.333045 207.352714 512.195668  C 208.215337 513.058292 208.700022 514.228425 208.700022 515.44836  C 208.700022 516.668294 208.215337 517.838427 207.352714 518.701051  C 206.49009 519.563675 205.319957 520.04836 204.100022 520.04836  C 202.880088 520.04836 201.709955 519.563675 200.847331 518.701051  C 199.984707 517.838427 199.500022 516.668294 199.500022 515.44836  C 199.500022 514.228425 199.984707 513.058292 200.847331 512.195668  C 201.709955 511.333045 202.880088 510.84836 204.100022 510.84836  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>New York</title></g>
+   <g id="city-06" data-city="Boston" data-pca-x="-3.5213147125655557" data-pca-y="-2.0297237564844575">
+    <path d="M 271.051979 448.892255  C 272.271914 448.892255 273.442047 449.37694 274.304671 450.239564  C 275.167294 451.102187 275.651979 452.272321 275.651979 453.492255  C 275.651979 454.712189 275.167294 455.882322 274.304671 456.744946  C 273.442047 457.60757 272.271914 458.092255 271.051979 458.092255  C 269.832045 458.092255 268.661912 457.60757 267.799288 456.744946  C 266.936664 455.882322 266.451979 454.712189 266.451979 453.492255  C 266.451979 452.272321 266.936664 451.102187 267.799288 450.239564  C 268.661912 449.37694 269.832045 448.892255 271.051979 448.892255  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Boston</title></g>
+   <g id="city-07" data-city="Philadelphia" data-pca-x="-0.8998175271572224" data-pca-y="-1.7949254753159631">
+    <path d="M 300.674898 446.239034  C 301.894832 446.239034 303.064965 446.723719 303.927589 447.586343  C 304.790213 448.448967 305.274898 449.6191 305.274898 450.839034  C 305.274898 452.058969 304.790213 453.229102 303.927589 454.091725  C 303.064965 454.954349 301.894832 455.439034 300.674898 455.439034  C 299.454963 455.439034 298.28483 454.954349 297.422206 454.091725  C 296.559583 453.229102 296.074898 452.058969 296.074898 450.839034  C 296.074898 449.6191 296.559583 448.448967 297.422206 447.586343  C 298.28483 446.723719 299.454963 446.239034 300.674898 446.239034  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Philadelphia</title></g>
+   <g id="city-08" data-city="Washington" data-pca-x="-10.481352016758315" data-pca-y="-9.992272025948754">
+    <path d="M 192.403558 538.86905  C 193.623492 538.86905 194.793625 539.353735 195.656249 540.216359  C 196.518873 541.078983 197.003558 542.249116 197.003558 543.46905  C 197.003558 544.688985 196.518873 545.859118 195.656249 546.721741  C 194.793625 547.584365 193.623492 548.06905 192.403558 548.06905  C 191.183624 548.06905 190.01349 547.584365 189.150867 546.721741  C 188.288243 545.859118 187.803558 544.688985 187.803558 543.46905  C 187.803558 542.249116 188.288243 541.078983 189.150867 540.216359  C 190.01349 539.353735 191.183624 538.86905 192.403558 538.86905  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Washington</title></g>
+   <g id="city-09" data-city="Baltimore" data-pca-x="-2.28982917379037" data-pca-y="-2.3878430155554167">
+    <path d="M 284.967766 452.939002  C 286.1877 452.939002 287.357833 453.423687 288.220457 454.286311  C 289.083081 455.148935 289.567766 456.319068 289.567766 457.539002  C 289.567766 458.758937 289.083081 459.92907 288.220457 460.791694  C 287.357833 461.654317 286.1877 462.139002 284.967766 462.139002  C 283.747832 462.139002 282.577699 461.654317 281.715075 460.791694  C 280.852451 459.92907 280.367766 458.758937 280.367766 457.539002  C 280.367766 456.319068 280.852451 455.148935 281.715075 454.286311  C 282.577699 453.423687 283.747832 452.939002 284.967766 452.939002  z " clip-path="url(#pceba362b47)" style="fill: #427cac; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Baltimore</title></g>
+   <g id="city-10" data-city="London" data-pca-x="-2.713372488452468" data-pca-y="-3.7300303643539974">
+    <path d="M 280.181727 468.10572  C 281.401661 468.10572 282.571794 468.590405 283.434418 469.453028  C 284.297041 470.315652 284.781727 471.485785 284.781727 472.70572  C 284.781727 473.925654 284.297041 475.095787 283.434418 475.958411  C 282.571794 476.821034 281.401661 477.30572 280.181727 477.30572  C 278.961792 477.30572 277.791659 476.821034 276.929035 475.958411  C 276.066412 475.095787 275.581727 473.925654 275.581727 472.70572  C 275.581727 471.485785 276.066412 470.315652 276.929035 469.453028  C 277.791659 468.590405 278.961792 468.10572 280.181727 468.10572  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>London</title></g>
+   <g id="city-11" data-city="Paris" data-pca-x="11.766280469518623" data-pca-y="1.3527036906230197">
+    <path d="M 443.801805 410.670825  C 445.021739 410.670825 446.191872 411.15551 447.054496 412.018133  C 447.91712 412.880757 448.401805 414.05089 448.401805 415.270825  C 448.401805 416.490759 447.91712 417.660892 447.054496 418.523516  C 446.191872 419.38614 445.021739 419.870825 443.801805 419.870825  C 442.581871 419.870825 441.411738 419.38614 440.549114 418.523516  C 439.68649 417.660892 439.201805 416.490759 439.201805 415.270825  C 439.201805 414.05089 439.68649 412.880757 440.549114 412.018133  C 441.411738 411.15551 442.581871 410.670825 443.801805 410.670825  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Paris</title></g>
+   <g id="city-12" data-city="Brussels" data-pca-x="10.727979666419296" data-pca-y="3.1264184350434583">
+    <path d="M 432.069006 390.627848  C 433.28894 390.627848 434.459073 391.112533 435.321697 391.975157  C 436.184321 392.837781 436.669006 394.007914 436.669006 395.227848  C 436.669006 396.447782 436.184321 397.617915 435.321697 398.480539  C 434.459073 399.343163 433.28894 399.827848 432.069006 399.827848  C 430.849072 399.827848 429.678938 399.343163 428.816315 398.480539  C 427.953691 397.617915 427.469006 396.447782 427.469006 395.227848  C 427.469006 394.007914 427.953691 392.837781 428.816315 391.975157  C 429.678938 391.112533 430.849072 390.627848 432.069006 390.627848  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Brussels</title></g>
+   <g id="city-13" data-city="Amsterdam" data-pca-x="9.5997908050443" data-pca-y="6.915769020648738">
+    <path d="M 419.320472 347.808186  C 420.540406 347.808186 421.710539 348.292871 422.573163 349.155495  C 423.435787 350.018119 423.920472 351.188252 423.920472 352.408186  C 423.920472 353.628121 423.435787 354.798254 422.573163 355.660878  C 421.710539 356.523501 420.540406 357.008186 419.320472 357.008186  C 418.100537 357.008186 416.930404 356.523501 416.067781 355.660878  C 415.205157 354.798254 414.720472 353.628121 414.720472 352.408186  C 414.720472 351.188252 415.205157 350.018119 416.067781 349.155495  C 416.930404 348.292871 418.100537 347.808186 419.320472 347.808186  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Amsterdam</title></g>
+   <g id="city-14" data-city="Luxembourg" data-pca-x="12.689011277941601" data-pca-y="1.3300227930886401">
+    <path d="M 454.228663 410.927119  C 455.448597 410.927119 456.61873 411.411804 457.481354 412.274428  C 458.343978 413.137051 458.828663 414.307185 458.828663 415.527119  C 458.828663 416.747053 458.343978 417.917186 457.481354 418.77981  C 456.61873 419.642434 455.448597 420.127119 454.228663 420.127119  C 453.008729 420.127119 451.838596 419.642434 450.975972 418.77981  C 450.113348 417.917186 449.628663 416.747053 449.628663 415.527119  C 449.628663 414.307185 450.113348 413.137051 450.975972 412.274428  C 451.838596 411.411804 453.008729 410.927119 454.228663 410.927119  z " clip-path="url(#pceba362b47)" style="fill: #906caa; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Luxembourg</title></g>
+   <g id="city-15" data-city="Rome" data-pca-x="19.13144208654528" data-pca-y="4.5382185755066295">
+    <path d="M 527.028131 374.674506  C 528.248065 374.674506 529.418199 375.159192 530.280822 376.021815  C 531.143446 376.884439 531.628131 378.054572 531.628131 379.274506  C 531.628131 380.494441 531.143446 381.664574 530.280822 382.527198  C 529.418199 383.389821 528.248065 383.874506 527.028131 383.874506  C 525.808197 383.874506 524.638064 383.389821 523.77544 382.527198  C 522.912816 381.664574 522.428131 380.494441 522.428131 379.274506  C 522.428131 378.054572 522.912816 376.884439 523.77544 376.021815  C 524.638064 375.159192 525.808197 374.674506 527.028131 374.674506  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Rome</title></g>
+   <g id="city-16" data-city="Milan" data-pca-x="14.34046837065285" data-pca-y="4.353180967034333">
+    <path d="M 472.890128 376.765431  C 474.110062 376.765431 475.280196 377.250116 476.142819 378.11274  C 477.005443 378.975364 477.490128 380.145497 477.490128 381.365431  C 477.490128 382.585366 477.005443 383.755499 476.142819 384.618123  C 475.280196 385.480746 474.110062 385.965431 472.890128 385.965431  C 471.670194 385.965431 470.500061 385.480746 469.637437 384.618123  C 468.774813 383.755499 468.290128 382.585366 468.290128 381.365431  C 468.290128 380.145497 468.774813 378.975364 469.637437 378.11274  C 470.500061 377.250116 471.670194 376.765431 472.890128 376.765431  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Milan</title></g>
+   <g id="city-17" data-city="Florence" data-pca-x="18.80245824339255" data-pca-y="2.24610862173044">
+    <path d="M 523.310614 400.575349  C 524.530548 400.575349 525.700681 401.060034 526.563305 401.922658  C 527.425929 402.785282 527.910614 403.955415 527.910614 405.175349  C 527.910614 406.395283 527.425929 407.565416 526.563305 408.42804  C 525.700681 409.290664 524.530548 409.775349 523.310614 409.775349  C 522.09068 409.775349 520.920546 409.290664 520.057923 408.42804  C 519.195299 407.565416 518.710614 406.395283 518.710614 405.175349  C 518.710614 403.955415 519.195299 402.785282 520.057923 401.922658  C 520.920546 401.060034 522.09068 400.575349 523.310614 400.575349  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Florence</title></g>
+   <g id="city-18" data-city="Venice" data-pca-x="16.961520619596907" data-pca-y="-0.11551315963408822">
+    <path d="M 502.508019 427.261675  C 503.727953 427.261675 504.898086 427.74636 505.76071 428.608984  C 506.623334 429.471608 507.108019 430.641741 507.108019 431.861675  C 507.108019 433.081609 506.623334 434.251742 505.76071 435.114366  C 504.898086 435.97699 503.727953 436.461675 502.508019 436.461675  C 501.288084 436.461675 500.117951 435.97699 499.255327 435.114366  C 498.392704 434.251742 497.908019 433.081609 497.908019 431.861675  C 497.908019 430.641741 498.392704 429.471608 499.255327 428.608984  C 500.117951 427.74636 501.288084 427.261675 502.508019 427.261675  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Venice</title></g>
+   <g id="city-19" data-city="Naples" data-pca-x="20.3894232511113" data-pca-y="5.066305788375026">
+    <path d="M 541.243318 368.707121  C 542.463253 368.707121 543.633386 369.191806 544.49601 370.05443  C 545.358633 370.917054 545.843318 372.087187 545.843318 373.307121  C 545.843318 374.527055 545.358633 375.697188 544.49601 376.559812  C 543.633386 377.422436 542.463253 377.907121 541.243318 377.907121  C 540.023384 377.907121 538.853251 377.422436 537.990627 376.559812  C 537.128003 375.697188 536.643318 374.527055 536.643318 373.307121  C 536.643318 372.087187 537.128003 370.917054 537.990627 370.05443  C 538.853251 369.191806 540.023384 368.707121 541.243318 368.707121  z " clip-path="url(#pceba362b47)" style="fill: #ce8b35; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Naples</title></g>
+   <g id="city-20" data-city="Beijing" data-pca-x="-8.57497003640073" data-pca-y="-11.551493657551768">
+    <path d="M 213.945674 556.488255  C 215.165608 556.488255 216.335742 556.97294 217.198365 557.835564  C 218.060989 558.698187 218.545674 559.86832 218.545674 561.088255  C 218.545674 562.308189 218.060989 563.478322 217.198365 564.340946  C 216.335742 565.20357 215.165608 565.688255 213.945674 565.688255  C 212.72574 565.688255 211.555607 565.20357 210.692983 564.340946  C 209.830359 563.478322 209.345674 562.308189 209.345674 561.088255  C 209.345674 559.86832 209.830359 558.698187 210.692983 557.835564  C 211.555607 556.97294 212.72574 556.488255 213.945674 556.488255  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Beijing</title></g>
+   <g id="city-21" data-city="Tianjin" data-pca-x="-9.425528785893947" data-pca-y="-10.54266952651472">
+    <path d="M 204.33436 545.088542  C 205.554295 545.088542 206.724428 545.573227 207.587052 546.435851  C 208.449675 547.298475 208.93436 548.468608 208.93436 549.688542  C 208.93436 550.908476 208.449675 552.078609 207.587052 552.941233  C 206.724428 553.803857 205.554295 554.288542 204.33436 554.288542  C 203.114426 554.288542 201.944293 553.803857 201.081669 552.941233  C 200.219045 552.078609 199.73436 550.908476 199.73436 549.688542  C 199.73436 548.468608 200.219045 547.298475 201.081669 546.435851  C 201.944293 545.573227 203.114426 545.088542 204.33436 545.088542  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Tianjin</title></g>
+   <g id="city-22" data-city="Shanghai" data-pca-x="-7.863509811154281" data-pca-y="-8.633132601643215">
+    <path d="M 221.985175 523.510775  C 223.205109 523.510775 224.375242 523.99546 225.237866 524.858084  C 226.10049 525.720707 226.585175 526.890841 226.585175 528.110775  C 226.585175 529.330709 226.10049 530.500842 225.237866 531.363466  C 224.375242 532.22609 223.205109 532.710775 221.985175 532.710775  C 220.765241 532.710775 219.595107 532.22609 218.732484 531.363466  C 217.86986 530.500842 217.385175 529.330709 217.385175 528.110775  C 217.385175 526.890841 217.86986 525.720707 218.732484 524.858084  C 219.595107 523.99546 220.765241 523.510775 221.985175 523.510775  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Shanghai</title></g>
+   <g id="city-23" data-city="Hangzhou" data-pca-x="-6.218748016185329" data-pca-y="-11.278156676671056">
+    <path d="M 240.570983 553.399547  C 241.790917 553.399547 242.96105 553.884232 243.823674 554.746856  C 244.686298 555.609479 245.170983 556.779613 245.170983 557.999547  C 245.170983 559.219481 244.686298 560.389614 243.823674 561.252238  C 242.96105 562.114862 241.790917 562.599547 240.570983 562.599547  C 239.351049 562.599547 238.180916 562.114862 237.318292 561.252238  C 236.455668 560.389614 235.970983 559.219481 235.970983 557.999547  C 235.970983 556.779613 236.455668 555.609479 237.318292 554.746856  C 238.180916 553.884232 239.351049 553.399547 240.570983 553.399547  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Hangzhou</title></g>
+   <g id="city-24" data-city="Suzhou" data-pca-x="-4.682217030205461" data-pca-y="-12.983454521706845">
+    <path d="M 257.933783 572.669412  C 259.153717 572.669412 260.323851 573.154097 261.186474 574.016721  C 262.049098 574.879345 262.533783 576.049478 262.533783 577.269412  C 262.533783 578.489347 262.049098 579.65948 261.186474 580.522104  C 260.323851 581.384727 259.153717 581.869412 257.933783 581.869412  C 256.713849 581.869412 255.543716 581.384727 254.681092 580.522104  C 253.818468 579.65948 253.333783 578.489347 253.333783 577.269412  C 253.333783 576.049478 253.818468 574.879345 254.681092 574.016721  C 255.543716 573.154097 256.713849 572.669412 257.933783 572.669412  z " clip-path="url(#pceba362b47)" style="fill: #338b7b; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Suzhou</title></g>
+   <g id="city-25" data-city="Delhi" data-pca-x="-11.793651169550747" data-pca-y="12.276098678993948">
+    <path d="M 177.574577 287.236461  C 178.794512 287.236461 179.964645 287.721146 180.827269 288.58377  C 181.689892 289.446394 182.174577 290.616527 182.174577 291.836461  C 182.174577 293.056396 181.689892 294.226529 180.827269 295.089153  C 179.964645 295.951776 178.794512 296.436461 177.574577 296.436461  C 176.354643 296.436461 175.18451 295.951776 174.321886 295.089153  C 173.459262 294.226529 172.974577 293.056396 172.974577 291.836461  C 172.974577 290.616527 173.459262 289.446394 174.321886 288.58377  C 175.18451 287.721146 176.354643 287.236461 177.574577 287.236461  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Delhi</title></g>
+   <g id="city-26" data-city="Mumbai" data-pca-x="-12.479554487853383" data-pca-y="19.5066291642303">
+    <path d="M 169.82387 205.531467  C 171.043804 205.531467 172.213937 206.016152 173.076561 206.878776  C 173.939185 207.741399 174.42387 208.911533 174.42387 210.131467  C 174.42387 211.351401 173.939185 212.521534 173.076561 213.384158  C 172.213937 214.246782 171.043804 214.731467 169.82387 214.731467  C 168.603936 214.731467 167.433803 214.246782 166.571179 213.384158  C 165.708555 212.521534 165.22387 211.351401 165.22387 210.131467  C 165.22387 208.911533 165.708555 207.741399 166.571179 206.878776  C 167.433803 206.016152 168.603936 205.531467 169.82387 205.531467  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Mumbai</title></g>
+   <g id="city-27" data-city="Bengaluru" data-pca-x="-12.134116441722234" data-pca-y="18.286485675317085">
+    <path d="M 173.72732 219.319088  C 174.947254 219.319088 176.117387 219.803773 176.980011 220.666397  C 177.842635 221.529021 178.32732 222.699154 178.32732 223.919088  C 178.32732 225.139023 177.842635 226.309156 176.980011 227.171779  C 176.117387 228.034403 174.947254 228.519088 173.72732 228.519088  C 172.507386 228.519088 171.337252 228.034403 170.474629 227.171779  C 169.612005 226.309156 169.12732 225.139023 169.12732 223.919088  C 169.12732 222.699154 169.612005 221.529021 170.474629 220.666397  C 171.337252 219.803773 172.507386 219.319088 173.72732 219.319088  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Bengaluru</title></g>
+   <g id="city-28" data-city="Chennai" data-pca-x="-13.45895168254692" data-pca-y="19.630600784548257">
+    <path d="M 158.756682 204.130588  C 159.976616 204.130588 161.146749 204.615273 162.009373 205.477896  C 162.871997 206.34052 163.356682 207.510653 163.356682 208.730588  C 163.356682 209.950522 162.871997 211.120655 162.009373 211.983279  C 161.146749 212.845903 159.976616 213.330588 158.756682 213.330588  C 157.536747 213.330588 156.366614 212.845903 155.50399 211.983279  C 154.641367 211.120655 154.156682 209.950522 154.156682 208.730588  C 154.156682 207.510653 154.641367 206.34052 155.50399 205.477896  C 156.366614 204.615273 157.536747 204.130588 158.756682 204.130588  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Chennai</title></g>
+   <g id="city-29" data-city="Hyderabad" data-pca-x="-12.649261873825294" data-pca-y="14.430294411990475">
+    <path d="M 167.906176 262.89405  C 169.126111 262.89405 170.296244 263.378735 171.158868 264.241358  C 172.021491 265.103982 172.506176 266.274115 172.506176 267.49405  C 172.506176 268.713984 172.021491 269.884117 171.158868 270.746741  C 170.296244 271.609365 169.126111 272.09405 167.906176 272.09405  C 166.686242 272.09405 165.516109 271.609365 164.653485 270.746741  C 163.790861 269.884117 163.306176 268.713984 163.306176 267.49405  C 163.306176 266.274115 163.790861 265.103982 164.653485 264.241358  C 165.516109 263.378735 166.686242 262.89405 167.906176 262.89405  z " clip-path="url(#pceba362b47)" style="fill: #7a8744; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter" />
+   <title>Hyderabad</title></g>
+   <g id="text_9">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="57" y="636.714844" transform="rotate(-0 57 636.714844)">Japan</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="270" y="636.715703" transform="rotate(-0 270 636.715703)">US Northeast</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="505" y="636.714844" transform="rotate(-0 505 636.714844)">Western Europe</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="57" y="669.715703" transform="rotate(-0 57 669.715703)">Italy</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="270" y="669.715703" transform="rotate(-0 270 669.715703)">China</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #202a27" x="505" y="669.715703" transform="rotate(-0 505 669.715703)">India</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #606c66" x="360" y="709.715703" transform="rotate(-0 360 709.715703)">30 cities · arrows show centered effects ≥ 4 nats</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 136.547659 219.838345  Q 149.824429 215.965429 163.101198 212.092512  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_16">
+    <g id="patch_14">
+     <path d="M 42.282969 246.760859  L 133.717031 246.760859  L 133.717031 221.239141  L 42.282969 221.239141  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="88" y="239.715703" transform="rotate(-0 88 239.715703)">Mumbai</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 576.631887 344.624797  Q 554.698635 359.945831 532.765382 375.266865  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_17">
+    <g id="patch_16">
+     <path d="M 565.87625 341.76  L 632.12375 341.76  L 632.12375 316.24  L 565.87625 316.24  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="599" y="334.714844" transform="rotate(-0 599 334.714844)">Rome</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 458.160937 418.230737  Q 454.408141 417.457156 450.655346 416.683576  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_18">
+    <g id="patch_18">
+     <path d="M 463.051406 437.760859  L 518.948594 437.760859  L 518.948594 412.239141  L 463.051406 412.239141  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="491" y="430.715703" transform="rotate(-0 491 430.715703)">Paris</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 400.533495 491.544245  Q 369.231118 485.315138 337.928742 479.086031  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_19">
+    <g id="patch_20">
+     <path d="M 405.44 511.760859  L 470.56 511.760859  L 470.56 486.239141  L 405.44 486.239141  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="438" y="504.715703" transform="rotate(-0 438 504.715703)">Tokyo</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 139.66195 494.317708  Q 168.555645 503.792582 197.44934 513.267456  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_20">
+    <g id="patch_22">
+     <path d="M 43.870313 492.760859  L 148.129687 492.760859  L 148.129687 467.239141  L 43.870313 467.239141  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="96" y="485.715703" transform="rotate(-0 96 485.715703)">New York</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 189.96739 573.161315  Q 203.948789 553.488824 217.930188 533.816333  " style="fill: none; stroke: #98a39d; stroke-width: 0.9; stroke-linecap: round" />
+   </g>
+   <g id="text_21">
+    <g id="patch_24">
+     <path d="M 124.821875 602.760859  L 231.178125 602.760859  L 231.178125 577.239141  L 124.821875 577.239141  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 22px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #202a27" x="178" y="595.715703" transform="rotate(-0 178 595.715703)">Shanghai</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pceba362b47">
+   <rect x="0" y="0" width="720" height="720" />
+  </clipPath>
+ </defs>
+</svg>

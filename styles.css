@@ -59,7 +59,13 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .contribution { font-size: 14px; line-height: 1.75; margin-top: 14px; }
 .contribution summary { cursor: pointer; width: fit-content; color: var(--muted); }
 .contribution p { margin-top: 8px; }
-.projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+.projects-grid { display: grid; gap: 28px; }
+.project { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 32px; align-items: center; }
+.project + .project { border-top: 1px solid var(--line); padding-top: 28px; }
+.project-figure a { display: block; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; background: var(--soft); }
+.project-figure a:hover { border-color: #92ab9d; }
+.project-figure img { display: block; width: 100%; height: auto; }
+.project-figure figcaption { margin-top: 9px; font-size: 12px; line-height: 1.5; color: var(--muted); }
 .eyebrow { font-size: 13px; font-weight: 500; color: var(--muted); }
 .project h3 { font-size: 19px; line-height: 1.4; color: var(--ink); margin: 5px 0 10px; font-weight: 650; }
 .project p:not(.eyebrow) { font-size: 15px; line-height: 1.75; }
@@ -112,6 +118,7 @@ dialog pre { padding: 18px; background: var(--soft); white-space: pre-wrap; over
   .paper h3 { font-size: 19px; }
   .background-grid { gap: 30px; }
   .projects-grid { gap: 28px; }
+  .project { grid-template-columns: 240px minmax(0, 1fr); gap: 24px; }
   footer { flex-wrap: wrap; gap: 12px; }
 }
 @media (max-width: 580px) {
@@ -139,6 +146,8 @@ dialog pre { padding: 18px; background: var(--soft); white-space: pre-wrap; over
   .paper + .paper { padding-top: 24px; }
   .resource-links { gap: 18px; }
   .projects-grid, .background-grid { grid-template-columns: 1fr; gap: 26px; }
+  .project { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .project-figure { width: 100%; max-width: 400px; }
   .project + .project { border-top: 1px solid var(--line); padding-top: 22px; }
   .education-entry:last-child { margin-bottom: 0; }
   .methods { margin-top: 18px; }

@@ -40,6 +40,8 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .paper { display: grid; grid-template-columns: 360px minmax(0, 1fr); align-items: start; gap: 32px; padding: 3px 0 30px; }
 .paper + .paper { border-top: 1px solid var(--line); padding-top: 26px; }
 .paper:last-child { padding-bottom: 0; }
+.paper.paper-ongoing { display: block; }
+.paper-ongoing h3 { color: var(--ink); }
 .paper-figure { margin-top: 4px; }
 .paper-figure img { display: block; width: 100%; height: auto; }
 .paper-figure > a { display: block; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; background: #fff; }

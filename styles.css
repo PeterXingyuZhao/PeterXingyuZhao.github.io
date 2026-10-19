@@ -76,7 +76,7 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .project h3 { font-size: 19px; line-height: 1.4; color: var(--ink); margin: 5px 0 10px; font-weight: 650; }
 .project p:not(.eyebrow) { font-size: 15px; line-height: 1.75; }
 .project-note { margin-top: 9px; }
-.background-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 52px; }
+.background-grid { display: grid; grid-template-columns: minmax(280px, .8fr) minmax(0, 1.5fr); gap: 44px; align-items: start; }
 .small-heading { font-size: 17px; font-weight: 600; color: var(--ink); margin: 0 0 18px; }
 .education-entry { margin-bottom: 25px; }
 .date { font-size: 13px; color: var(--muted); margin-bottom: 3px; }
@@ -86,14 +86,15 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .achievement { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .achievement strong { font-weight: 600; color: var(--ink); }
 .achievement span { margin-left: 10px; }
-.coursework-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 18px; }
-.coursework-heading .small-heading { margin: 0; }
-.coursework-grades { color: var(--accent); background: var(--soft); border: 1px solid var(--line); border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; line-height: 1.6; }
+.coursework .small-heading { margin-bottom: 18px; }
+.coursework-grades { color: var(--muted); font-size: 14px; line-height: 1.75; margin-bottom: 14px; }
+.coursework-grades strong { color: var(--accent); font-weight: 600; }
 .coursework dl { margin: 0; }
-.coursework dl > div { margin-bottom: 15px; }
-.coursework dt { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
-.coursework dd { font-size: 14px; line-height: 1.75; margin: 0; }
-.coursework-note { color: var(--muted); font-size: 12px; line-height: 1.6; margin-top: 6px; }
+.coursework dl > div { font-size: 14px; line-height: 1.75; margin-bottom: 14px; }
+.coursework dl > div:last-child { margin-bottom: 0; }
+.coursework dt { display: inline; font-weight: 600; color: var(--ink); }
+.coursework dt::after { content: ":"; }
+.coursework dd { display: inline; margin: 0; }
 .methods { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 8px; }
 .methods .small-heading { margin-bottom: 12px; }
 .methods p { font-size: 14px; line-height: 1.75; margin-bottom: 8px; }
@@ -114,6 +115,10 @@ dialog pre { padding: 18px; background: var(--soft); white-space: pre-wrap; over
 #copy-status { font-size: 13px; }
 .skip-link { position: fixed; top: -100px; left: 15px; background: var(--ink); color: white; padding: 10px 16px; z-index: 100; }
 .skip-link:focus { top: 12px; }
+@media (max-width: 800px) {
+  .background-grid { grid-template-columns: 1fr; gap: 26px; }
+  .education-entry:last-child { margin-bottom: 0; }
+}
 @media (max-width: 750px) {
   .page-width, .header-inner { width: calc(100% - 40px); }
   .header-inner { min-height: 62px; gap: 16px; }
@@ -126,7 +131,6 @@ dialog pre { padding: 18px; background: var(--soft); white-space: pre-wrap; over
   .contact-links { gap: 18px; font-size: 14px; margin-top: 18px; }
   .paper { grid-template-columns: 280px minmax(0, 1fr); gap: 24px; }
   .paper h3 { font-size: 19px; }
-  .background-grid { gap: 30px; }
   .projects-grid { gap: 28px; }
   .project { grid-template-columns: 240px minmax(0, 1fr); gap: 24px; }
   footer { flex-wrap: wrap; gap: 12px; }

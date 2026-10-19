@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://peterxingyuzhao.github.io/">
   <link rel="canonical" href="https://peterxingyuzhao.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261018-projects">
+  <link rel="stylesheet" href="styles.css?v=20261018-research">
   <script src="script.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Xingyu Zhao","url":"https://peterxingyuzhao.github.io/","email":"mailto:xzhao468@wisc.edu","affiliation":{"@type":"CollegeOrUniversity","name":"University of Wisconsin–Madison"},"sameAs":["https://github.com/PeterXingyuZhao"]}</script>
 </head>
@@ -45,8 +45,8 @@
     <div class="section-heading"><h2 id="research-heading">Research</h2></div>
     <article class="paper" aria-labelledby="shattered-title">
       <figure class="paper-figure learning-figure">
-        <a href="assets/addition-learning.png" aria-label="View full-size digit-wise learning curves from Shattered Compositionality"><img src="assets/addition-learning.png" width="1500" height="894" alt="Digit-wise addition error during training: the thousands-place digit becomes accurate before the hundreds, tens, and units digits." loading="lazy"></a>
-        <figcaption>Digit-wise learning curves<span>Figure 1, ordinary output order</span></figcaption>
+        <a href="assets/arithmetic-learning-order.svg" aria-label="View the enlarged arithmetic learning figure"><img src="assets/arithmetic-learning-order.svg" width="720" height="640" alt="Measured learning curves for reversed-output addition: higher-place digits improve before lower-place digits, opposite to the direction of carry propagation." loading="lazy" decoding="async"></a>
+        <figcaption>Learning need not follow carry dependencies.<span>Four-operand addition · reversed digit output</span><a class="figure-source" href="assets/arithmetic-reversed-output.pdf">Original paper plot <span aria-hidden="true">↗</span></a></figcaption>
       </figure>
       <div class="paper-body">
         <div class="paper-meta"><span class="venue">NeurIPS 2026</span><span>Accepted</span></div>
@@ -59,8 +59,8 @@
     </article>
     <article class="paper" aria-labelledby="transfer-title">
       <figure class="paper-figure transfer-figure">
-        <img src="assets/trait-transfer.svg" width="520" height="300" alt="Conceptual diagram: a teacher's behavioral trait is transmitted through unrelated training outputs, influencing multiple student traits." loading="lazy">
-        <figcaption>Cross-trait transfer<span>Conceptual illustration</span></figcaption>
+        <a href="assets/city-transfer-network.svg" aria-label="View the enlarged city-transfer network"><img src="assets/city-transfer-network.svg" width="720" height="720" alt="Teacher city preferences pass through distributions over numbers 00 to 99 to students. The measured network of 30 city preferences shows structured cross-trait transfer, with cities colored by region." loading="lazy" decoding="async"></a>
+        <figcaption>Measured transfer across 30 city preferences.<span>Qwen2.5-7B · 00–99 distribution distillation</span><span>Node positions: PCA of transfer profiles.</span><a class="figure-source" href="https://github.com/PeterXingyuZhao/cross-trait-transfer/blob/main/data/figures/figure2.json">Network data <span aria-hidden="true">↗</span></a></figcaption>
       </figure>
       <div class="paper-body">
         <div class="paper-meta"><span class="venue muted-venue">Preprint</span><span>Under review at ICLR 2027</span></div>

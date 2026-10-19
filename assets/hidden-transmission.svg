@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="680" viewBox="0 0 720 680" role="img" aria-labelledby="hidden-title hidden-description">
+  <title id="hidden-title">Can hidden signals amplify through repeated learning and interaction?</title>
+  <desc id="hidden-description">Conceptual research overview. In recursive training, a private trait or secret S conditions a model's numeric generation. The model learns from those outputs and repeats with the same S; S is omitted from the training inputs. In the proposed multi-agent setting, agents hold private signals S1, S2, and S3, post messages to a shared board, and incorporate summaries into their next context. Arrows show information flow. Colors distinguish private signals and illustrative message contributions, not measured transmission strengths. Amplification, herding, and emergent collusion are research questions.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#25624d"/></marker>
+    <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#78877e"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #202a27; }
+      .heading { font-size: 27px; font-weight: 600; }
+      .label { font-size: 25px; font-weight: 600; }
+      .small { font-size: 22px; fill: #606c66; }
+      .flow { fill: none; stroke: #25624d; stroke-width: 2.7; stroke-linejoin: round; marker-end: url(#arrow); }
+      .return { fill: none; stroke: #78877e; stroke-width: 2.5; stroke-dasharray: 7 6; marker-end: url(#arrow-muted); }
+    </style>
+  </defs>
+  <rect width="720" height="680" fill="#fff"/>
+  <text x="34" y="48" class="heading">Recursive training</text>
+  <text x="34" y="81" class="small">A private signal shapes each generation</text>
+
+  <rect x="52" y="114" width="166" height="46" rx="23" fill="#f7ecee"/>
+  <text x="135" y="145" text-anchor="middle" font-size="23" fill="#a34354">Trait / secret S</text>
+  <path d="M 135 161 V 179" fill="none" stroke="#a34354" stroke-width="2.5"/>
+
+  <rect x="40" y="180" width="190" height="86" rx="10" fill="#f5f8f5" stroke="#b6c7bd" stroke-width="2"/>
+  <text x="135" y="215" text-anchor="middle" class="label">Model</text>
+  <text x="135" y="247" text-anchor="middle" font-size="25" font-style="italic">p<tspan font-size="18" baseline-shift="sub">t</tspan></text>
+  <path d="M 232 224 H 270" class="flow"/>
+  <text x="252" y="174" text-anchor="middle" class="small">generate</text>
+
+  <rect x="280" y="180" width="160" height="86" rx="10" fill="#fff" stroke="#c9d4cd" stroke-width="2"/>
+  <text x="360" y="215" text-anchor="middle" class="label">Numbers</text>
+  <text x="360" y="248" text-anchor="middle" font-size="23" fill="#25624d">00 ··· 99</text>
+  <path d="M 442 224 H 480" class="flow"/>
+  <text x="460" y="174" text-anchor="middle" class="small">train</text>
+
+  <rect x="490" y="180" width="190" height="86" rx="10" fill="#f5f8f5" stroke="#b6c7bd" stroke-width="2"/>
+  <text x="585" y="215" text-anchor="middle" class="label">Updated model</text>
+  <text x="585" y="247" text-anchor="middle" font-size="25" font-style="italic">p<tspan font-size="18" baseline-shift="sub">t+1</tspan></text>
+  <path d="M 585 268 V 301 Q 585 312 574 312 H 146 Q 135 312 135 301 V 273" class="return"/>
+  <rect x="214" y="295" width="292" height="32" fill="#fff"/>
+  <text x="360" y="319" text-anchor="middle" class="small">Repeat with the same S</text>
+
+  <line x1="34" y1="348" x2="686" y2="348" stroke="#dfe5e1" stroke-width="1.5"/>
+  <text x="34" y="391" class="heading">Multi-agent interaction</text>
+  <text x="34" y="424" class="small">Private signals, shared messages</text>
+
+  <g>
+    <rect x="40" y="452" width="180" height="76" rx="10" fill="#f7ecee" stroke="#d9b5bc" stroke-width="2"/>
+    <text x="130" y="483" text-anchor="middle" class="label">Agent 1</text>
+    <text x="130" y="514" text-anchor="middle" font-size="24" fill="#a34354">S₁</text>
+    <rect x="270" y="452" width="180" height="76" rx="10" fill="#edf3f8" stroke="#abc2d5" stroke-width="2"/>
+    <text x="360" y="483" text-anchor="middle" class="label">Agent 2</text>
+    <text x="360" y="514" text-anchor="middle" font-size="24" fill="#427cac">S₂</text>
+    <rect x="500" y="452" width="180" height="76" rx="10" fill="#f1edf6" stroke="#c7b7d7" stroke-width="2"/>
+    <text x="590" y="483" text-anchor="middle" class="label">Agent 3</text>
+    <text x="590" y="514" text-anchor="middle" font-size="24" fill="#906caa">S₃</text>
+  </g>
+  <path d="M 117 530 V 557 Q 117 567 127 567 H 205 V 582" class="flow"/>
+  <path d="M 235 585 V 549 H 144 V 534" class="return"/>
+  <path d="M 346 530 V 582" class="flow"/>
+  <path d="M 374 585 V 534" class="return"/>
+  <path d="M 577 530 V 549 H 485 V 582" class="flow"/>
+  <path d="M 515 585 V 567 H 605 V 534" class="return"/>
+  <rect x="170" y="590" width="380" height="55" rx="10" fill="#f5f8f5" stroke="#b6c7bd" stroke-width="2"/>
+  <text x="360" y="625" text-anchor="middle" class="label">Shared message board</text>
+  <path d="M 46 662 H 78" class="flow"/>
+  <text x="89" y="669" class="small">Messages</text>
+  <path d="M 353 662 H 385" class="return"/>
+  <text x="396" y="669" class="small">Summaries → next round</text>
+</svg>

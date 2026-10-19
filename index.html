@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://peterxingyuzhao.github.io/">
   <link rel="canonical" href="https://peterxingyuzhao.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261019-hidden-transmission">
+  <link rel="stylesheet" href="styles.css?v=20261019-research-introductions">
   <script src="script.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Xingyu Zhao","url":"https://peterxingyuzhao.github.io/","email":"mailto:xzhao468@wisc.edu","affiliation":{"@type":"CollegeOrUniversity","name":"University of Wisconsin–Madison"},"sameAs":["https://github.com/PeterXingyuZhao"]}</script>
 </head>
@@ -52,7 +52,8 @@
         <div class="paper-meta"><span class="venue">NeurIPS 2026</span><span>Accepted</span></div>
         <h3 id="shattered-title"><a href="https://arxiv.org/abs/2601.22510">Shattered Compositionality: Counterintuitive Learning Dynamics of Transformers for Arithmetic</a></h3>
         <p class="authors"><strong>Xingyu Zhao</strong>, Darsh Sharma, Rheeya Uppaal, and Yiqiao Zhong</p>
-        <p class="paper-summary">Transformers can acquire arithmetic subskills in reverse or in parallel relative to standard procedures. We study how training-data correlations shape these learning patterns and how competition between subskills can lead to brittle generalization.</p>
+        <p class="paper-summary">We study how transformers acquire and combine skills in arithmetic, comparison, and sorting. In addition experiments, models learned higher-place answer digits before lower-place ones, opposite to the usual direction of carry propagation.</p>
+        <p class="paper-summary">We train models from scratch and vary the data to examine how statistical dependencies shape learning. Controlled comparison and sorting tests show that skills can interfere, helping explain why high accuracy on familiar problems can fail under new conditions.</p>
         <div class="resource-links"><a href="https://arxiv.org/abs/2601.22510">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/PeterXingyuZhao/Arithmetic_Transformer">Code <span aria-hidden="true">↗</span></a><a href="https://yiqiao-zhong.github.io/jekyll/update/2026/02/08/shattered-compositionality.html">Advisor’s blog <span aria-hidden="true">↗</span></a><button type="button" data-citation="shattered">BibTeX</button></div>
         <details class="contribution">
           <summary>My research contributions</summary>
@@ -60,7 +61,7 @@
           <ul>
             <li><strong>Statistical diagnostics.</strong> I analyzed conditional dependencies among addition digits and developed conditional mutual-information diagnostics to measure which relationships model predictions capture during training.</li>
             <li><strong>Controlled experiments.</strong> I designed an ablation that randomized only the thousands-place answer digit. In the reversed-output setting, models failed to learn the correctly labeled lower digits, revealing interdependence between arithmetic subskills.</li>
-            <li><strong>Generalization at scale.</strong> I constructed distribution-shift tests for comparison and sorting, trained transformers with up to 100M parameters from scratch, and evaluated 10 pretrained language models on mathematical word problems with added reasoning steps. These experiments exposed how strong accuracy on familiar problems can coexist with brittle generalization.</li>
+            <li><strong>Generalization at scale.</strong> I constructed distribution-shift tests for comparison and sorting, trained transformers from scratch with up to 100M parameters, and evaluated 10 pretrained language models on mathematical word problems with added reasoning steps. These experiments exposed how strong accuracy on familiar problems can coexist with brittle generalization.</li>
           </ul>
         </details>
       </div>
@@ -74,14 +75,15 @@
         <div class="paper-meta"><span class="venue muted-venue">Preprint</span><span>Under review at ICLR 2027</span></div>
         <h3 id="transfer-title"><a href="https://arxiv.org/abs/2610.04260">Cross-Trait Transfer in Subliminal Learning</a></h3>
         <p class="authors"><strong>Xingyu Zhao</strong> and Yiqiao Zhong</p>
-        <p class="paper-summary">A teacher model’s preferences can shape a student’s other traits, even through semantically unrelated training outputs. We investigate the structure of this transfer using behavioral measurements, output distributions, and internal representations.</p>
+        <p class="paper-summary">A teacher model’s preferences can influence a student trained on its outputs, even when those outputs are seemingly unrelated numbers or code. We examine how this influence extends to related traits, including similar colors and cities in the same geographic region.</p>
+        <p class="paper-summary">Across 30 experimental settings, transfer was stronger within related groups than between them, after accounting for broad shifts in student responses. Tracking color preferences during training also revealed a progression from broad behavioral changes to more trait-specific effects. These findings show why measuring only the teacher’s intended preference can miss structured effects hidden in seemingly unrelated training data.</p>
         <div class="resource-links"><a href="https://arxiv.org/abs/2610.04260">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/PeterXingyuZhao/cross-trait-transfer">Code <span aria-hidden="true">↗</span></a><button type="button" data-citation="transfer">BibTeX</button></div>
         <details class="contribution">
           <summary>My research contributions</summary>
           <p>I led the experimental design, implementation, and statistical analysis of how language models transmit preferences through semantically unrelated training outputs.</p>
           <ul>
             <li><strong>Network structure and inference.</strong> I built directed matrices measuring how each teacher preference changes student responses. Group-label permutation tests, with Holm correction for multiple comparisons, found stronger transfer within related groups—such as city regions and color families—in all 30 experimental settings.</li>
-            <li><strong>Geometry and learning dynamics.</strong> I developed six diagnostics from output distributions and internal representation geometry, measuring their correlations with observed transfer. Singular-value analysis of color-transfer matrices revealed a progression from broad, shared behavioral shifts to more differentiated patterns during training.</li>
+            <li><strong>Geometry and learning dynamics.</strong> I developed six diagnostic metrics based on shifts in output probabilities and internal representation geometry, measuring their correlations with observed transfer. Singular-value analysis of color-transfer matrices revealed a progression from broad, shared behavioral shifts to more differentiated patterns during training.</li>
             <li><strong>Computational breadth.</strong> I fine-tuned 7–8B-parameter models across four model families using parameter-efficient fine-tuning (LoRA). On Qwen2.5, I also compared learning from sampled outputs with matching the teacher’s probability distribution. These experiments tested how transfer patterns vary across models and training methods.</li>
           </ul>
         </details>

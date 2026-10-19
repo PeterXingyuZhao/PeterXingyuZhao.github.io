@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://peterxingyuzhao.github.io/">
   <link rel="canonical" href="https://peterxingyuzhao.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261018-research">
+  <link rel="stylesheet" href="styles.css?v=20261018-coursework">
   <script src="script.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Xingyu Zhao","url":"https://peterxingyuzhao.github.io/","email":"mailto:xzhao468@wisc.edu","affiliation":{"@type":"CollegeOrUniversity","name":"University of Wisconsin–Madison"},"sameAs":["https://github.com/PeterXingyuZhao"]}</script>
 </head>
@@ -54,7 +54,15 @@
         <p class="authors"><strong>Xingyu Zhao</strong>, Darsh Sharma, Rheeya Uppaal, and Yiqiao Zhong</p>
         <p class="paper-summary">Transformers can acquire arithmetic subskills in reverse or in parallel relative to standard procedures. We study how training-data correlations shape these learning patterns and how competition between subskills can lead to brittle generalization.</p>
         <div class="resource-links"><a href="https://arxiv.org/abs/2601.22510">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/PeterXingyuZhao/Arithmetic_Transformer">Code <span aria-hidden="true">↗</span></a><a href="https://yiqiao-zhong.github.io/jekyll/update/2026/02/08/shattered-compositionality.html">Advisor’s blog <span aria-hidden="true">↗</span></a><button type="button" data-citation="shattered">BibTeX</button></div>
-        <details class="contribution"><summary>My research contributions</summary><p>I tracked subskill acquisition across addition, multiplication, comparison, and sorting; developed conditional mutual information diagnostics; and designed targeted ablations. My experiments included roughly 10M–100M parameter transformers, Pythia-1B fine-tuning, and reasoning robustness evaluations across 10 pretrained LLMs.</p></details>
+        <details class="contribution">
+          <summary>My research contributions</summary>
+          <p>I led the experimental design, implementation, and analysis, connecting how transformers learn arithmetic to the statistical structure of their training data.</p>
+          <ul>
+            <li><strong>Statistical diagnostics.</strong> I analyzed conditional dependencies among addition digits and developed conditional mutual-information diagnostics to measure which relationships model predictions capture during training.</li>
+            <li><strong>Controlled experiments.</strong> I designed an ablation that randomized only the thousands-place answer digit. In the reversed-output setting, models failed to learn the correctly labeled lower digits, revealing interdependence between arithmetic subskills.</li>
+            <li><strong>Generalization at scale.</strong> I constructed distribution-shift tests for comparison and sorting, trained transformers with up to 100M parameters from scratch, and evaluated 10 pretrained language models on mathematical word problems with added reasoning steps. These experiments exposed how strong accuracy on familiar problems can coexist with brittle generalization.</li>
+          </ul>
+        </details>
       </div>
     </article>
     <article class="paper" aria-labelledby="transfer-title">
@@ -68,7 +76,15 @@
         <p class="authors"><strong>Xingyu Zhao</strong> and Yiqiao Zhong</p>
         <p class="paper-summary">A teacher model’s preferences can shape a student’s other traits, even through semantically unrelated training outputs. We investigate the structure of this transfer using behavioral measurements, output distributions, and internal representations.</p>
         <div class="resource-links"><a href="https://arxiv.org/abs/2610.04260">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/PeterXingyuZhao/cross-trait-transfer">Code <span aria-hidden="true">↗</span></a><button type="button" data-citation="transfer">BibTeX</button></div>
-        <details class="contribution"><summary>My research contributions</summary><p>I developed metrics of output-probability shifts and representation geometry, fine-tuned 7–8B models using LoRA, and designed multi-trait and rare-trait experiments. I studied how related traits can be amplified beyond the teacher’s own trait and how transfer patterns become more differentiated during training.</p></details>
+        <details class="contribution">
+          <summary>My research contributions</summary>
+          <p>I led the experimental design, implementation, and statistical analysis of how language models transmit preferences through semantically unrelated training outputs.</p>
+          <ul>
+            <li><strong>Network structure and inference.</strong> I built directed matrices measuring how each teacher preference changes student responses. Group-label permutation tests, with Holm correction for multiple comparisons, found stronger transfer within related groups—such as city regions and color families—in all 30 experimental settings.</li>
+            <li><strong>Geometry and learning dynamics.</strong> I developed six diagnostics from output distributions and internal representation geometry, measuring their correlations with observed transfer. Singular-value analysis of color-transfer matrices revealed a progression from broad, shared behavioral shifts to more differentiated patterns during training.</li>
+            <li><strong>Computational breadth.</strong> I fine-tuned 7–8B-parameter models across four model families using parameter-efficient fine-tuning (LoRA). On Qwen2.5, I also compared learning from sampled outputs with matching the teacher’s probability distribution. These experiments tested how transfer patterns vary across models and training methods.</li>
+          </ul>
+        </details>
       </div>
     </article>
   </section>
@@ -100,10 +116,12 @@
         <article class="education-entry"><p class="date">Sep 2024 – present</p><h4>University of Wisconsin–Madison</h4><p>B.S. in Mathematics and<br>Computer Sciences (Honors)</p><p class="education-detail">Expected December 2026</p><p class="achievement">GPA <strong>4.00 / 4.00</strong></p></article>
         <article class="education-entry"><p class="date">Sep 2022 – Jun 2024</p><h4>Fudan University</h4><p>Undergraduate studies in Computer Science</p><p class="achievement">GPA <strong>3.90 / 4.00</strong><span>Class rank <strong>1 / 88</strong></span></p></article>
       </div>
-      <div class="coursework"><h3 class="small-heading">Selected coursework</h3>
-        <dl><div><dt>Mathematics & statistics</dt><dd>Real Analysis · Advanced Linear Algebra · Abstract Algebra · Stochastic Processes · Stochastic Calculus · Optimization (linear, integer, and mixed-integer programming)</dd></div>
-        <div><dt>Machine learning</dt><dd>Deep Learning · Reinforcement Learning</dd></div>
+      <div class="coursework">
+        <div class="coursework-heading"><h3 class="small-heading">Selected coursework</h3><p class="coursework-grades">A in all listed courses</p></div>
+        <dl><div><dt>Advanced mathematics</dt><dd>Analysis I &amp; II · Advanced Linear Algebra · Abstract Algebra · Stochastic Processes · Stochastic Calculus<p class="coursework-note">These mathematics courses carry UW–Madison’s graduate-coursework designation.</p></dd></div>
+        <div><dt>Optimization</dt><dd>Introductory course in linear, integer, and mixed-integer programming</dd></div>
         <div><dt>Theoretical computer science</dt><dd>Algorithms · Data Structures · Theory of Computation</dd></div>
+        <div><dt>Machine learning</dt><dd>Deep Learning · Reinforcement Learning</dd></div>
         <div><dt>Systems & graphics</dt><dd>Parallel Programming · Computer Systems · Database Systems · Computer Graphics</dd></div></dl>
       </div>
     </div>

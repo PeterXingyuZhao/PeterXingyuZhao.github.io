@@ -61,6 +61,10 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .contribution { font-size: 14px; line-height: 1.75; margin-top: 14px; }
 .contribution summary { cursor: pointer; width: fit-content; color: var(--muted); }
 .contribution p { margin-top: 8px; }
+.contribution ul { margin: 12px 0 0; padding-left: 20px; }
+.contribution li + li { margin-top: 10px; }
+.contribution li::marker { color: var(--muted); }
+.contribution strong { color: var(--ink); font-weight: 600; }
 .projects-grid { display: grid; gap: 28px; }
 .project { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 32px; align-items: center; }
 .project + .project { border-top: 1px solid var(--line); padding-top: 28px; }
@@ -82,10 +86,14 @@ h2 { font-size: 25px; line-height: 1.35; font-weight: 650; color: var(--ink); le
 .achievement { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .achievement strong { font-weight: 600; color: var(--ink); }
 .achievement span { margin-left: 10px; }
+.coursework-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 18px; }
+.coursework-heading .small-heading { margin: 0; }
+.coursework-grades { color: var(--accent); background: var(--soft); border: 1px solid var(--line); border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; line-height: 1.6; }
 .coursework dl { margin: 0; }
 .coursework dl > div { margin-bottom: 15px; }
 .coursework dt { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
 .coursework dd { font-size: 14px; line-height: 1.75; margin: 0; }
+.coursework-note { color: var(--muted); font-size: 12px; line-height: 1.6; margin-top: 6px; }
 .methods { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 8px; }
 .methods .small-heading { margin-bottom: 12px; }
 .methods p { font-size: 14px; line-height: 1.75; margin-bottom: 8px; }
